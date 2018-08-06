@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ChainBefore</OriginalElement>
+  <nodes>
+    <node x="416.0" y="134.5">ChainBefore.IR</node>
+    <node x="0.0" y="134.5">ChainBefore.LS</node>
+    <node x="277.279365079365" y="289.0">ChainBefore</node>
+    <node x="187.99999999999997" y="101.0">ChainBefore.Processor</node>
+    <node x="406.5825396825396" y="0.0">ChainBefore.Image</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ChainBefore.Processor" target="ChainBefore">
+      <point x="69.33333333333331" y="59.0" />
+      <point x="361.33333333333326" y="269.0" />
+      <point x="369.279365079365" y="269.0" />
+      <point x="0.0" y="-25.5" />
+    </edge>
+    <edge source="ChainBefore.LS" target="ChainBefore.Image">
+      <point x="0.0" y="-25.5" />
+      <point x="84.0" y="71.0" />
+      <point x="423.38253968253963" y="71.0" />
+      <point x="-67.19999999999999" y="25.5" />
+    </edge>
+    <edge source="ChainBefore.IR" target="ChainBefore">
+      <point x="42.0" y="25.5" />
+      <point x="542.0" y="249.0" />
+      <point x="410.1682539682539" y="249.0" />
+      <point x="40.888888888888914" y="-25.5" />
+    </edge>
+    <edge source="ChainBefore" target="ChainBefore.Processor">
+      <point x="-40.888888888888886" y="-25.5" />
+      <point x="328.3904761904761" y="249.0" />
+      <point x="222.66666666666666" y="249.0" />
+      <point x="-69.33333333333331" y="59.0" />
+    </edge>
+    <edge source="ChainBefore" target="ChainBefore.Image">
+      <point x="81.77777777777777" y="-25.5" />
+      <point x="451.05714285714276" y="269.0" />
+      <point x="605.5" y="269.0" />
+      <point x="605.5" y="71.0" />
+      <point x="557.7825396825397" y="71.0" />
+      <point x="67.19999999999999" y="25.5" />
+    </edge>
+    <edge source="ChainBefore.LS" target="ChainBefore">
+      <point x="42.0" y="25.5" />
+      <point x="126.0" y="259.0" />
+      <point x="307.9460317460317" y="259.0" />
+      <point x="-61.333333333333314" y="-25.5" />
+    </edge>
+    <edge source="ChainBefore.Image" target="ChainBefore">
+      <point x="33.599999999999966" y="25.5" />
+      <point x="524.1825396825395" y="81.0" />
+      <point x="594.5" y="81.0" />
+      <point x="594.5" y="259.0" />
+      <point x="430.6126984126983" y="259.0" />
+      <point x="61.333333333333314" y="-25.5" />
+    </edge>
+    <edge source="ChainBefore.Processor" target="ChainBefore.Image">
+      <point x="0.0" y="-59.0" />
+      <point x="292.0" y="81.0" />
+      <point x="456.9825396825396" y="81.0" />
+      <point x="-33.60000000000002" y="25.5" />
+    </edge>
+    <edge source="ChainBefore.IR" target="ChainBefore.Image">
+      <point x="0.0" y="-25.5" />
+      <point x="500.0" y="81.0" />
+      <point x="490.5825396825396" y="81.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="ChainBefore" target="ChainBefore.IR">
+      <point x="20.444444444444457" y="-25.5" />
+      <point x="389.72380952380945" y="239.0" />
+      <point x="458.0" y="239.0" />
+      <point x="-42.0" y="25.5" />
+    </edge>
+    <edge source="ChainBefore" target="ChainBefore.LS">
+      <point x="-81.77777777777777" y="-25.5" />
+      <point x="287.5015873015872" y="269.0" />
+      <point x="42.0" y="269.0" />
+      <point x="-42.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="303.0" y="170.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

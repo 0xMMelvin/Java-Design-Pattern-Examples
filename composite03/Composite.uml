@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Column</OriginalElement>
+  <nodes>
+    <node x="0.0" y="134.0">Primitive</node>
+    <node x="215.11093749999998" y="101.0">Composite</node>
+    <node x="99.1109375" y="291.0">Column</node>
+    <node x="277.1109375" y="291.0">Row</node>
+    <node x="195.69687499999998" y="392.0">CompositeDemo</node>
+    <node x="212.23593749999998" y="0.0">Component</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CompositeDemo" target="Column">
+      <point x="-23.0" y="-25.5" />
+      <point x="264.696875" y="362.0" />
+      <point x="178.1109375" y="362.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="CompositeDemo" target="Primitive">
+      <point x="-69.0" y="-25.5" />
+      <point x="218.69687499999998" y="372.0" />
+      <point x="79.0" y="372.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="CompositeDemo" target="Composite">
+      <point x="69.0" y="-25.5" />
+      <point x="356.696875" y="372.0" />
+      <point x="445.6109375" y="372.0" />
+      <point x="445.6109375" y="261.0" />
+      <point x="397.8109374999999" y="261.0" />
+      <point x="81.19999999999993" y="70.0" />
+    </edge>
+    <edge source="Column" target="Composite">
+      <point x="-39.5" y="-25.5" />
+      <point x="138.6109375" y="261.0" />
+      <point x="235.4109375" y="261.0" />
+      <point x="-81.19999999999999" y="70.0" />
+    </edge>
+    <edge source="Row" target="Composite">
+      <point x="-39.50000000000003" y="-25.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="Primitive" target="Component">
+      <point x="0.0" y="-37.0" />
+      <point x="79.0" y="76.0" />
+      <point x="228.0359375" y="76.0" />
+      <point x="-63.19999999999999" y="25.5" />
+    </edge>
+    <edge source="CompositeDemo" target="Row">
+      <point x="23.0" y="-25.5" />
+      <point x="310.696875" y="362.0" />
+      <point x="356.1109375" y="362.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Composite" target="Component">
+      <point x="-76.125" y="-70.0" />
+      <point x="240.48593749999998" y="76.0" />
+      <point x="259.63593749999995" y="76.0" />
+      <point x="-31.600000000000023" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.0" y="221.5" />
+  <SelectedNodes>
+    <node>Column</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

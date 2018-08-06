@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BridgeDisc</OriginalElement>
+  <nodes>
+    <node x="190.0" y="288.5">StackHanoi</node>
+    <node x="421.5" y="45.0">Node</node>
+    <node x="293.41517857142856" y="478.0">BridgeDisc</node>
+    <node x="410.0" y="255.0">StackList</node>
+    <node x="0.0" y="299.5">StackFIFO</node>
+    <node x="126.52455357142856" y="0.0">StackArray</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StackFIFO" target="StackArray">
+      <point x="21.25" y="-37.0" />
+      <point x="106.25" y="225.0" />
+      <point x="174.96205357142856" y="225.0" />
+      <point x="-29.0625" y="92.5" />
+    </edge>
+    <edge source="BridgeDisc" target="StackList">
+      <point x="78.85714285714289" y="-25.5" />
+      <point x="464.27232142857144" y="458.0" />
+      <point x="526.25" y="458.0" />
+      <point x="38.75" y="81.5" />
+    </edge>
+    <edge source="BridgeDisc" target="StackFIFO">
+      <point x="-78.85714285714286" y="-25.5" />
+      <point x="306.55803571428567" y="458.0" />
+      <point x="85.0" y="458.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="StackHanoi" target="StackArray">
+      <point x="47.0" y="-48.0" />
+      <point x="331.0" y="225.0" />
+      <point x="233.08705357142856" y="225.0" />
+      <point x="29.0625" y="92.5" />
+    </edge>
+    <edge source="StackList" target="Node">
+      <point x="-38.75" y="-81.5" />
+      <point x="448.75" y="235.0" />
+      <point x="454.5" y="235.0" />
+      <point x="-33.0" y="47.5" />
+    </edge>
+    <edge source="BridgeDisc" target="StackArray">
+      <point x="0.0" y="-25.5" />
+      <point x="385.41517857142856" y="458.0" />
+      <point x="388.5" y="458.0" />
+      <point x="388.5" y="215.0" />
+      <point x="252.46205357142856" y="215.0" />
+      <point x="48.4375" y="92.5" />
+    </edge>
+    <edge source="BridgeDisc" target="StackHanoi">
+      <point x="-52.571428571428555" y="-25.5" />
+      <point x="332.84375" y="448.0" />
+      <point x="237.0" y="448.0" />
+      <point x="-47.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.5" y="264.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

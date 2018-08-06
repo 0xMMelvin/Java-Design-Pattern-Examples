@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Composite</OriginalElement>
+  <nodes>
+    <node x="0.0" y="168.0">Composite</node>
+    <node x="54.5" y="292.0">File</node>
+    <node x="48.125" y="0.0">Directory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Directory" target="Composite">
+      <point x="21.375" y="59.0" />
+      <point x="155.0" y="143.0" />
+      <point x="167.5" y="143.0" />
+      <point x="67.0" y="-37.0" />
+    </edge>
+    <edge source="File" target="Composite">
+      <point x="-59.625" y="-37.0" />
+      <point x="74.375" y="267.0" />
+      <point x="33.5" y="267.0" />
+      <point x="-67.0" y="37.0" />
+    </edge>
+    <edge source="Composite" target="File">
+      <point x="67.0" y="37.0" />
+      <point x="167.5" y="267.0" />
+      <point x="153.875" y="267.0" />
+      <point x="19.875" y="-37.0" />
+    </edge>
+    <edge source="Composite" target="Directory">
+      <point x="-67.0" y="-37.0" />
+      <point x="33.5" y="143.0" />
+      <point x="69.5" y="143.0" />
+      <point x="-64.125" y="59.0" />
+    </edge>
+    <edge source="Directory" target="File">
+      <point x="64.125" y="59.0" />
+      <point x="197.75" y="143.0" />
+      <point x="211.5" y="143.0" />
+      <point x="211.5" y="267.0" />
+      <point x="193.625" y="267.0" />
+      <point x="59.625" y="-37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="183.0" />
+  <SelectedNodes>
+    <node>Composite</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

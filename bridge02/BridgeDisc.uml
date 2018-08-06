@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BridgeDisc</OriginalElement>
+  <nodes>
+    <node x="309.1869047619047" y="648.0">StackHanoi</node>
+    <node x="263.4369047619047" y="0.0">StackImpl</node>
+    <node x="0.0" y="22.5">Node</node>
+    <node x="344.86517857142854" y="794.0">BridgeDisc</node>
+    <node x="21.5" y="201.0">StackList</node>
+    <node x="116.41517857142856" y="659.0">StackFIFO</node>
+    <node x="318.3125" y="190.0">StackArray</node>
+    <node x="335.8125" y="425.0">Stack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Stack" target="StackList">
+      <point x="-52.0" y="-81.5" />
+      <point x="361.8125" y="400.0" />
+      <point x="137.75" y="400.0" />
+      <point x="38.75" y="81.5" />
+    </edge>
+    <edge source="StackArray" target="StackImpl">
+      <point x="0.0" y="-92.5" />
+      <point x="395.8125" y="170.0" />
+      <point x="360.3119047619047" y="170.0" />
+      <point x="19.375" y="70.0" />
+    </edge>
+    <edge source="StackList" target="StackImpl">
+      <point x="51.66666666666666" y="-81.5" />
+      <point x="150.66666666666666" y="160.0" />
+      <point x="282.8119047619047" y="160.0" />
+      <point x="-58.125" y="70.0" />
+    </edge>
+    <edge source="BridgeDisc" target="StackHanoi">
+      <point x="0.0" y="-25.5" />
+      <point x="436.86517857142854" y="774.0" />
+      <point x="450.1869047619047" y="774.0" />
+      <point x="47.0" y="48.0" />
+    </edge>
+    <edge source="BridgeDisc" target="Stack">
+      <point x="36.800000000000026" y="-25.5" />
+      <point x="473.66517857142856" y="764.0" />
+      <point x="507.68690476190477" y="764.0" />
+      <point x="507.68690476190477" y="618.0" />
+      <point x="452.8125" y="618.0" />
+      <point x="39.0" y="81.5" />
+    </edge>
+    <edge source="StackFIFO" target="Stack">
+      <point x="20.25" y="-37.0" />
+      <point x="217.66517857142856" y="608.0" />
+      <point x="348.8125" y="608.0" />
+      <point x="-65.0" y="81.5" />
+    </edge>
+    <edge source="BridgeDisc" target="StackFIFO">
+      <point x="-73.60000000000002" y="-25.5" />
+      <point x="363.2651785714285" y="774.0" />
+      <point x="197.41517857142856" y="774.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="StackList" target="Node">
+      <point x="-51.66666666666666" y="-81.5" />
+      <point x="47.33333333333337" y="170.0" />
+      <point x="33.0" y="170.0" />
+      <point x="-33.0" y="47.5" />
+    </edge>
+    <edge source="Stack" target="StackArray">
+      <point x="0.0" y="-81.5" />
+      <point x="413.8125" y="400.0" />
+      <point x="395.8125" y="400.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="StackHanoi" target="Stack">
+      <point x="-47.0" y="-48.0" />
+      <point x="356.1869047619047" y="628.0" />
+      <point x="400.8125" y="628.0" />
+      <point x="-13.0" y="81.5" />
+    </edge>
+    <edge source="Stack" target="StackImpl">
+      <point x="52.0" y="-81.5" />
+      <point x="465.8125" y="400.0" />
+      <point x="483.8125" y="400.0" />
+      <point x="483.8125" y="160.0" />
+      <point x="399.0619047619047" y="160.0" />
+      <point x="58.125" y="70.0" />
+    </edge>
+    <edge source="StackFIFO" target="StackList">
+      <point x="-60.75" y="-37.0" />
+      <point x="136.66517857142856" y="628.0" />
+      <point x="60.24999999999997" y="628.0" />
+      <point x="-38.75" y="81.5" />
+    </edge>
+    <edge source="StackFIFO" target="StackImpl">
+      <point x="-20.25" y="-37.0" />
+      <point x="177.16517857142856" y="628.0" />
+      <point x="198.56249999999997" y="628.0" />
+      <point x="198.56249999999997" y="170.0" />
+      <point x="321.5619047619047" y="170.0" />
+      <point x="-19.375" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9341040462427745" x="272.5" y="422.5" />
+  <SelectedNodes>
+    <node>BridgeDisc</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

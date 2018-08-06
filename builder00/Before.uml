@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BuilderDemo</OriginalElement>
+  <nodes>
+    <node x="184.0" y="0.0">GridLayout_Table</node>
+    <node x="368.0" y="0.0">GridBagLayout_Table</node>
+    <node x="136.0" y="101.0">BuilderDemo</node>
+    <node x="0.0" y="0.0">JTable_Table</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BuilderDemo" target="GridBagLayout_Table">
+      <point x="86.66666666666669" y="-36.5" />
+      <point x="352.6666666666667" y="76.0" />
+      <point x="457.5" y="76.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BuilderDemo" target="GridLayout_Table">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BuilderDemo" target="JTable_Table">
+      <point x="-86.66666666666669" y="-36.5" />
+      <point x="179.33333333333331" y="76.0" />
+      <point x="82.0" y="76.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="87.0" />
+  <SelectedNodes>
+    <node>BuilderDemo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

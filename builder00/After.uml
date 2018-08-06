@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Builder</OriginalElement>
+  <nodes>
+    <node x="100.67261904761915" y="413.0">BuilderDemo2</node>
+    <node x="336.56547619047615" y="0.0">Builder</node>
+    <node x="0.0" y="233.5">Reader</node>
+    <node x="225.00000000000006" y="178.0">GridBagLayout_Builder</node>
+    <node x="526.0" y="211.5">GridLayout_Builder</node>
+    <node x="827.0" y="178.0">JTable_Builder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GridBagLayout_Builder" target="Builder">
+      <point x="0.0" y="-92.5" />
+      <point x="365.50000000000006" y="158.0" />
+      <point x="453.6488095238095" y="158.0" />
+      <point x="-23.41666666666663" y="59.0" />
+    </edge>
+    <edge source="Reader" target="Builder">
+      <point x="-51.25" y="-37.0" />
+      <point x="51.25" y="138.0" />
+      <point x="359.9821428571428" y="138.0" />
+      <point x="-117.08333333333337" y="59.0" />
+    </edge>
+    <edge source="BuilderDemo2" target="Builder">
+      <point x="61.33333333333337" y="-25.5" />
+      <point x="254.00595238095252" y="388.0" />
+      <point x="1118.5" y="388.0" />
+      <point x="1118.5" y="138.0" />
+      <point x="594.1488095238095" y="138.0" />
+      <point x="117.08333333333337" y="59.0" />
+    </edge>
+    <edge source="GridLayout_Builder" target="Builder">
+      <point x="0.0" y="-59.0" />
+      <point x="666.5" y="158.0" />
+      <point x="500.4821428571429" y="158.0" />
+      <point x="23.416666666666686" y="59.0" />
+    </edge>
+    <edge source="BuilderDemo2" target="Reader">
+      <point x="0.0" y="-25.5" />
+      <point x="192.67261904761915" y="388.0" />
+      <point x="153.75" y="388.0" />
+      <point x="51.25" y="37.0" />
+    </edge>
+    <edge source="JTable_Builder" target="Builder">
+      <point x="0.0" y="-92.5" />
+      <point x="967.5" y="148.0" />
+      <point x="547.3154761904761" y="148.0" />
+      <point x="70.25" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8410886742756805" x="559.5" y="232.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CommandQueue</OriginalElement>
+  <nodes>
+    <node x="355.0" y="101.0">CommandQueue.Politician</node>
+    <node x="0.0" y="101.0">CommandQueue.Programmer</node>
+    <node x="353.11249999999995" y="0.0">CommandQueue.Command</node>
+    <node x="235.06964285714284" y="222.0">CommandQueue</node>
+    <node x="176.0" y="101.0">CommandQueue.DomesticEngineer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CommandQueue" target="CommandQueue.Command">
+      <point x="103.6875" y="-47.5" />
+      <point x="457.25714285714287" y="202.0" />
+      <point x="532.5" y="202.0" />
+      <point x="532.5" y="71.0" />
+      <point x="493.51250000000005" y="71.0" />
+      <point x="62.400000000000034" y="25.5" />
+    </edge>
+    <edge source="CommandQueue" target="CommandQueue.Programmer">
+      <point x="-103.6875" y="-47.5" />
+      <point x="249.88214285714284" y="202.0" />
+      <point x="39.0" y="202.0" />
+      <point x="-39.0" y="25.5" />
+    </edge>
+    <edge source="CommandQueue.Programmer" target="CommandQueue.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="78.0" y="71.0" />
+      <point x="368.7125" y="71.0" />
+      <point x="-62.39999999999998" y="25.5" />
+    </edge>
+    <edge source="CommandQueue.Politician" target="CommandQueue.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="433.0" y="81.0" />
+      <point x="431.11249999999995" y="81.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="CommandQueue.DomesticEngineer" target="CommandQueue">
+      <point x="39.75" y="25.5" />
+      <point x="295.25" y="172.0" />
+      <point x="338.75714285714287" y="172.0" />
+      <point x="-14.8125" y="-47.5" />
+    </edge>
+    <edge source="CommandQueue.Politician" target="CommandQueue">
+      <point x="39.0" y="25.5" />
+      <point x="472.0" y="182.0" />
+      <point x="398.00714285714287" y="182.0" />
+      <point x="44.4375" y="-47.5" />
+    </edge>
+    <edge source="CommandQueue.DomesticEngineer" target="CommandQueue.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="255.5" y="81.0" />
+      <point x="399.9125" y="81.0" />
+      <point x="-31.19999999999999" y="25.5" />
+    </edge>
+    <edge source="CommandQueue" target="CommandQueue.DomesticEngineer">
+      <point x="-44.4375" y="-47.5" />
+      <point x="309.13214285714287" y="182.0" />
+      <point x="215.75" y="182.0" />
+      <point x="-39.75" y="25.5" />
+    </edge>
+    <edge source="CommandQueue.Command" target="CommandQueue">
+      <point x="31.19999999999999" y="25.5" />
+      <point x="462.3125" y="81.0" />
+      <point x="521.5" y="81.0" />
+      <point x="521.5" y="192.0" />
+      <point x="427.63214285714287" y="192.0" />
+      <point x="74.0625" y="-47.5" />
+    </edge>
+    <edge source="CommandQueue" target="CommandQueue.Politician">
+      <point x="14.8125" y="-47.5" />
+      <point x="368.38214285714287" y="172.0" />
+      <point x="394.0" y="172.0" />
+      <point x="-39.0" y="25.5" />
+    </edge>
+    <edge source="CommandQueue.Programmer" target="CommandQueue">
+      <point x="39.0" y="25.5" />
+      <point x="117.0" y="192.0" />
+      <point x="279.50714285714287" y="192.0" />
+      <point x="-74.0625" y="-47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="266.5" y="158.5" />
+  <SelectedNodes>
+    <node>CommandQueue</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

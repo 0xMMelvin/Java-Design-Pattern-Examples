@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BuilderExample</OriginalElement>
+  <nodes>
+    <node x="223.08333333333331" y="0.0">Pizza</node>
+    <node x="148.49238095238096" y="501.0">BuilderExample</node>
+    <node x="236.5" y="345.5">HawaiianPizzaBuilder</node>
+    <node x="445.5" y="345.5">SpicyPizzaBuilder</node>
+    <node x="10.5" y="345.0">Waiter</node>
+    <node x="251.25" y="145.0">PizzaBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BuilderExample" target="HawaiianPizzaBuilder">
+      <point x="15.333333333333314" y="-25.5" />
+      <point x="255.82571428571427" y="461.0" />
+      <point x="331.0" y="461.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="PizzaBuilder" target="Pizza">
+      <point x="0.0" y="-70.0" />
+      <point x="378.25" y="125.0" />
+      <point x="321.7833333333333" y="125.0" />
+      <point x="28.19999999999999" y="47.5" />
+    </edge>
+    <edge source="SpicyPizzaBuilder" target="PizzaBuilder">
+      <point x="47.25" y="-47.5" />
+      <point x="587.25" y="315.0" />
+      <point x="450.82142857142856" y="315.0" />
+      <point x="72.57142857142856" y="70.0" />
+    </edge>
+    <edge source="BuilderExample" target="SpicyPizzaBuilder">
+      <point x="46.0" y="-25.5" />
+      <point x="286.4923809523809" y="471.0" />
+      <point x="540.0" y="471.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="HawaiianPizzaBuilder" target="PizzaBuilder">
+      <point x="-47.25" y="-47.5" />
+      <point x="283.75" y="325.0" />
+      <point x="341.9642857142857" y="325.0" />
+      <point x="-36.28571428571428" y="70.0" />
+    </edge>
+    <edge source="Waiter" target="Pizza">
+      <point x="-68.66666666666669" y="-48.0" />
+      <point x="44.833333333333314" y="325.0" />
+      <point x="68.6621428571429" y="325.0" />
+      <point x="68.6621428571429" y="125.0" />
+      <point x="265.3833333333333" y="125.0" />
+      <point x="-28.19999999999999" y="47.5" />
+    </edge>
+    <edge source="BuilderExample" target="PizzaBuilder">
+      <point x="76.66666666666669" y="-25.5" />
+      <point x="317.15904761904767" y="481.0" />
+      <point x="645.0" y="481.0" />
+      <point x="645.0" y="305.0" />
+      <point x="487.10714285714283" y="305.0" />
+      <point x="108.85714285714285" y="70.0" />
+    </edge>
+    <edge source="BuilderExample" target="Pizza">
+      <point x="-76.66666666666671" y="-25.5" />
+      <point x="163.82571428571424" y="481.0" />
+      <point x="0.0" y="481.0" />
+      <point x="0.0" y="115.0" />
+      <point x="237.1833333333333" y="115.0" />
+      <point x="-56.400000000000006" y="47.5" />
+    </edge>
+    <edge source="BuilderExample" target="Waiter">
+      <point x="-46.00000000000003" y="-25.5" />
+      <point x="194.49238095238093" y="471.0" />
+      <point x="62.0" y="471.0" />
+      <point x="-51.5" y="48.0" />
+    </edge>
+    <edge source="Waiter" target="PizzaBuilder">
+      <point x="-1.4210854715202004E-14" y="-48.0" />
+      <point x="113.5" y="305.0" />
+      <point x="269.39285714285717" y="305.0" />
+      <point x="-108.85714285714283" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="322.5" y="276.0" />
+  <SelectedNodes>
+    <node>BuilderExample</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

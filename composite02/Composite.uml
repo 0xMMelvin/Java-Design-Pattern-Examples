@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Box</OriginalElement>
+  <nodes>
+    <node x="37.604166666666686" y="292.0">CompositeLevels</node>
+    <node x="76.47916666666669" y="0.0">Entity</node>
+    <node x="187.0" y="146.0">Product</node>
+    <node x="0.0" y="124.0">Box</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Box" target="Entity">
+      <point x="41.75" y="-59.0" />
+      <point x="125.25" y="99.0" />
+      <point x="146.60416666666669" y="99.0" />
+      <point x="-23.375" y="37.0" />
+    </edge>
+    <edge source="CompositeLevels" target="Box">
+      <point x="0.0" y="-36.5" />
+      <point x="129.60416666666669" y="267.0" />
+      <point x="125.25" y="267.0" />
+      <point x="41.75" y="59.0" />
+    </edge>
+    <edge source="CompositeLevels" target="Product">
+      <point x="61.333333333333314" y="-36.5" />
+      <point x="190.9375" y="267.0" />
+      <point x="266.0" y="267.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Product" target="Entity">
+      <point x="39.5" y="-37.0" />
+      <point x="305.5" y="99.0" />
+      <point x="240.10416666666669" y="99.0" />
+      <point x="70.125" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="172.5" y="182.5" />
+  <SelectedNodes>
+    <node>Box</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

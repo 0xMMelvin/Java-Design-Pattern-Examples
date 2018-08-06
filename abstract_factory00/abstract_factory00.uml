@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ArchitectureToolkit</OriginalElement>
+  <nodes>
+    <node x="130.6170634920635" y="0.0">MMU</node>
+    <node x="199.375" y="109.0">EmberCPU</node>
+    <node x="0.0" y="109.0">EnginolaMMU</node>
+    <node x="333.375" y="109.0">EmberMMU</node>
+    <node x="475.7420634920635" y="0.0">CPU</node>
+    <node x="486.4920634920635" y="109.0">EnginolaCPU</node>
+    <node x="395.6170634920635" y="188.0">EnginolaToolkit</node>
+    <node x="408.9871031746032" y="565.0">Client</node>
+    <node x="166.31845238095235" y="188.0">EmberToolkit</node>
+    <node x="203.0079365079365" y="331.0">ArchitectureToolkit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="EnginolaMMU" target="MMU">
+      <point x="0.0" y="-14.5" />
+      <point x="66.5" y="79.0" />
+      <point x="138.6170634920635" y="79.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="ArchitectureToolkit" target="MMU">
+      <point x="-123.375" y="-92.0" />
+      <point x="220.6329365079365" y="311.0" />
+      <point x="143.5" y="311.0" />
+      <point x="143.5" y="89.0" />
+      <point x="154.6170634920635" y="89.0" />
+      <point x="-16.0" y="14.5" />
+    </edge>
+    <edge source="EmberToolkit" target="EmberCPU">
+      <point x="23.0" y="-36.5" />
+      <point x="281.31845238095235" y="168.0" />
+      <point x="256.375" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="EnginolaToolkit" target="EnginolaCPU">
+      <point x="69.0" y="-36.5" />
+      <point x="556.6170634920635" y="168.0" />
+      <point x="550.4920634920635" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="EmberToolkit" target="MMU">
+      <point x="-69.0" y="-36.5" />
+      <point x="189.31845238095235" y="168.0" />
+      <point x="161.7579365079365" y="168.0" />
+      <point x="161.7579365079365" y="89.0" />
+      <point x="170.6170634920635" y="89.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="EnginolaToolkit" target="EmberMMU">
+      <point x="-69.0" y="-36.5" />
+      <point x="418.6170634920635" y="168.0" />
+      <point x="422.625" y="168.0" />
+      <point x="29.75" y="14.5" />
+    </edge>
+    <edge source="EmberToolkit" target="CPU">
+      <point x="-23.0" y="-36.5" />
+      <point x="235.31845238095235" y="158.0" />
+      <point x="188.875" y="158.0" />
+      <point x="188.875" y="69.0" />
+      <point x="481.9920634920635" y="69.0" />
+      <point x="-31.25" y="14.5" />
+    </edge>
+    <edge source="EnginolaToolkit" target="CPU">
+      <point x="23.0" y="-36.5" />
+      <point x="510.6170634920635" y="168.0" />
+      <point x="475.9920634920635" y="168.0" />
+      <point x="475.9920634920635" y="89.0" />
+      <point x="506.9920634920635" y="89.0" />
+      <point x="-6.25" y="14.5" />
+    </edge>
+    <edge source="ArchitectureToolkit" target="EnginolaToolkit">
+      <point x="17.625" y="-92.0" />
+      <point x="361.6329365079365" y="281.0" />
+      <point x="426.2837301587301" y="281.0" />
+      <point x="-61.33333333333334" y="36.5" />
+    </edge>
+    <edge source="EmberCPU" target="CPU">
+      <point x="0.0" y="-14.5" />
+      <point x="256.375" y="79.0" />
+      <point x="494.4920634920635" y="79.0" />
+      <point x="-18.75" y="14.5" />
+    </edge>
+    <edge source="ArchitectureToolkit" target="CPU">
+      <point x="123.375" y="-92.0" />
+      <point x="467.3829365079365" y="311.0" />
+      <point x="624.9920634920635" y="311.0" />
+      <point x="624.9920634920635" y="79.0" />
+      <point x="531.9920634920635" y="79.0" />
+      <point x="18.750000000000014" y="14.5" />
+    </edge>
+    <edge source="EnginolaToolkit" target="MMU">
+      <point x="-23.0" y="-36.5" />
+      <point x="464.9920634920635" y="49.0" />
+      <point x="202.6170634920635" y="49.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="EmberToolkit" target="EmberMMU">
+      <point x="69.0" y="-36.5" />
+      <point x="327.31845238095235" y="168.0" />
+      <point x="363.125" y="168.0" />
+      <point x="-29.75" y="14.5" />
+    </edge>
+    <edge source="Client" target="CPU">
+      <point x="33.0" y="-25.5" />
+      <point x="507.9871031746032" y="540.0" />
+      <point x="644.5545634920635" y="540.0" />
+      <point x="644.5545634920635" y="69.0" />
+      <point x="544.4920634920635" y="69.0" />
+      <point x="31.250000000000014" y="14.5" />
+    </edge>
+    <edge source="Client" target="ArchitectureToolkit">
+      <point x="-33.0" y="-25.5" />
+      <point x="441.9871031746032" y="540.0" />
+      <point x="344.0079365079365" y="540.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="EmberToolkit" target="ArchitectureToolkit">
+      <point x="61.33333333333337" y="36.5" />
+      <point x="319.6517857142857" y="311.0" />
+      <point x="326.3829365079365" y="311.0" />
+      <point x="-17.625" y="-92.0" />
+    </edge>
+    <edge source="ArchitectureToolkit" target="EmberToolkit">
+      <point x="-52.875" y="-92.0" />
+      <point x="291.1329365079365" y="291.0" />
+      <point x="258.31845238095235" y="291.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="EnginolaToolkit" target="ArchitectureToolkit">
+      <point x="61.333333333333385" y="36.5" />
+      <point x="548.9503968253969" y="301.0" />
+      <point x="432.1329365079365" y="301.0" />
+      <point x="88.125" y="-92.0" />
+    </edge>
+    <edge source="EnginolaCPU" target="CPU">
+      <point x="0.0" y="-14.5" />
+      <point x="550.4920634920635" y="89.0" />
+      <point x="519.4920634920635" y="89.0" />
+      <point x="6.25" y="14.5" />
+    </edge>
+    <edge source="EmberMMU" target="MMU">
+      <point x="0.0" y="-14.5" />
+      <point x="392.875" y="59.0" />
+      <point x="186.6170634920635" y="59.0" />
+      <point x="16.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="322.5" y="308.0" />
+  <SelectedNodes>
+    <node>ArchitectureToolkit</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
