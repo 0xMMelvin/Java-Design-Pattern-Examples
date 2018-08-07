@@ -3,142 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement>DecoratorBefore</OriginalElement>
   <nodes>
-    <node x="258.84944444444443" y="245.0">DecoratorBefore.AwithXY</node>
-    <node x="322.9288888888889" y="101.0">DecoratorBefore.AwithX</node>
-    <node x="168.8494444444445" y="0.0">DecoratorBefore.A</node>
-    <node x="10.5" y="101.0">DecoratorBefore.AwithZ</node>
-    <node x="163.5" y="101.0">DecoratorBefore.AwithY</node>
-    <node x="162.125" y="410.0">DecoratorBefore</node>
-    <node x="67.54944444444448" y="234.0">DecoratorBefore.AwithXYZ</node>
+    <node x="164.0" y="235.0">DecoratorBefore.AwithXY</node>
+    <node x="86.0" y="101.0">DecoratorBefore.AwithX</node>
+    <node x="238.0" y="0.0">DecoratorBefore.A</node>
+    <node x="238.0" y="101.0">DecoratorBefore.AwithZ</node>
+    <node x="390.0" y="101.0">DecoratorBefore.AwithY</node>
+    <node x="0.0" y="224.0">DecoratorBefore.AwithXYZ</node>
   </nodes>
   <notes />
   <edges>
     <edge source="DecoratorBefore.AwithZ" target="DecoratorBefore.A">
       <point x="0.0" y="-36.5" />
-      <point x="77.0" y="81.0" />
-      <point x="208.4494444444445" y="81.0" />
-      <point x="-26.399999999999977" y="25.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithY" target="DecoratorBefore.A">
-      <point x="0.0" y="-36.5" />
-      <point x="230.0" y="81.0" />
-      <point x="234.8494444444445" y="81.0" />
       <point x="0.0" y="25.5" />
     </edge>
-    <edge source="DecoratorBefore" target="DecoratorBefore.AwithXY">
-      <point x="9.199999999999989" y="-25.5" />
-      <point x="263.325" y="350.0" />
-      <point x="292.59944444444443" y="350.0" />
-      <point x="-33.75" y="37.0" />
-    </edge>
-    <edge source="DecoratorBefore" target="DecoratorBefore.A">
-      <point x="82.80000000000001" y="-25.5" />
-      <point x="336.925" y="390.0" />
-      <point x="466.4288888888889" y="390.0" />
-      <point x="466.4288888888889" y="71.0" />
-      <point x="287.6494444444445" y="71.0" />
-      <point x="52.80000000000001" y="25.5" />
+    <edge source="DecoratorBefore.AwithY" target="DecoratorBefore.A">
+      <point x="-2.8421709430404007E-14" y="-36.5" />
+      <point x="456.0" y="76.0" />
+      <point x="348.0" y="76.0" />
+      <point x="44.0" y="25.5" />
     </edge>
     <edge source="DecoratorBefore.AwithX" target="DecoratorBefore.A">
       <point x="0.0" y="-36.5" />
-      <point x="389.4288888888889" y="81.0" />
-      <point x="261.24944444444446" y="81.0" />
-      <point x="26.399999999999977" y="25.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithXYZ" target="DecoratorBefore.AwithZ">
-      <point x="-28.59999999999998" y="-48.0" />
-      <point x="110.44944444444451" y="214.0" />
-      <point x="121.33333333333334" y="214.0" />
-      <point x="44.33333333333334" y="36.5" />
-    </edge>
-    <edge source="DecoratorBefore" target="DecoratorBefore.AwithXYZ">
-      <point x="-46.00000000000003" y="-25.5" />
-      <point x="208.12499999999994" y="370.0" />
-      <point x="103.29944444444448" y="370.0" />
-      <point x="-35.75" y="48.0" />
-    </edge>
-    <edge source="DecoratorBefore.AwithXYZ" target="DecoratorBefore.AwithY">
-      <point x="1.4210854715202004E-14" y="-48.0" />
-      <point x="139.04944444444448" y="194.0" />
-      <point x="176.79999999999998" y="194.0" />
-      <point x="-53.2" y="36.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithXY" target="DecoratorBefore">
-      <point x="33.75000000000003" y="37.0" />
-      <point x="360.0994444444445" y="360.0" />
-      <point x="281.725" y="360.0" />
-      <point x="27.600000000000023" y="-25.5" />
-    </edge>
-    <edge source="DecoratorBefore.A" target="DecoratorBefore">
-      <point x="-52.80000000000001" y="25.5" />
-      <point x="182.04944444444448" y="71.0" />
-      <point x="0.0" y="71.0" />
-      <point x="0.0" y="390.0" />
-      <point x="171.32499999999993" y="390.0" />
-      <point x="-82.80000000000004" y="-25.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithX" target="DecoratorBefore">
-      <point x="16.625" y="36.5" />
-      <point x="406.0538888888889" y="214.0" />
-      <point x="417.0538888888889" y="214.0" />
-      <point x="417.0538888888889" y="370.0" />
-      <point x="300.125" y="370.0" />
-      <point x="46.0" y="-25.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithY" target="DecoratorBefore">
-      <point x="0.0" y="36.5" />
-      <point x="230.0" y="204.0" />
-      <point x="234.8494444444445" y="204.0" />
-      <point x="234.8494444444445" y="390.0" />
-      <point x="244.92499999999995" y="390.0" />
-      <point x="-9.200000000000045" y="-25.5" />
+      <point x="152.0" y="76.0" />
+      <point x="260.0" y="76.0" />
+      <point x="-44.0" y="25.5" />
     </edge>
     <edge source="DecoratorBefore.AwithXYZ" target="DecoratorBefore.AwithX">
-      <point x="57.19999999999999" y="-48.0" />
-      <point x="196.24944444444446" y="214.0" />
-      <point x="339.5538888888889" y="214.0" />
-      <point x="-49.875" y="36.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithZ" target="DecoratorBefore">
-      <point x="-44.33333333333334" y="36.5" />
-      <point x="32.74472222222221" y="380.0" />
-      <point x="189.72499999999997" y="380.0" />
-      <point x="-64.40000000000003" y="-25.5" />
-    </edge>
-    <edge source="DecoratorBefore" target="DecoratorBefore.AwithX">
-      <point x="64.39999999999998" y="-25.5" />
-      <point x="318.525" y="380.0" />
-      <point x="429.3375" y="380.0" />
-      <point x="429.3375" y="214.0" />
-      <point x="439.3038888888889" y="214.0" />
-      <point x="49.875" y="36.5" />
+      <point x="-2.8421709430404007E-14" y="-48.0" />
+      <point x="71.99999999999997" y="199.0" />
+      <point x="119.0" y="199.0" />
+      <point x="-33.0" y="36.5" />
     </edge>
     <edge source="DecoratorBefore.AwithXY" target="DecoratorBefore.AwithX">
-      <point x="45.00000000000003" y="-37.0" />
-      <point x="371.3494444444445" y="214.0" />
-      <point x="372.8038888888889" y="214.0" />
-      <point x="-16.625" y="36.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithXYZ" target="DecoratorBefore">
-      <point x="35.75" y="48.0" />
-      <point x="174.79944444444448" y="360.0" />
-      <point x="226.52499999999998" y="360.0" />
-      <point x="-27.600000000000023" y="-25.5" />
-    </edge>
-    <edge source="DecoratorBefore.AwithXY" target="DecoratorBefore.AwithY">
-      <point x="-44.99999999999997" y="-37.0" />
-      <point x="281.3494444444445" y="204.0" />
-      <point x="256.59999999999997" y="204.0" />
-      <point x="26.599999999999994" y="36.5" />
+      <point x="0.0" y="-37.0" />
+      <point x="232.0" y="199.0" />
+      <point x="185.0" y="199.0" />
+      <point x="33.0" y="36.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="267.5" y="210.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="226.5" y="215.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
-    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

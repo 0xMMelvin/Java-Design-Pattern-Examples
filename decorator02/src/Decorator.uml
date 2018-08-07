@@ -3,91 +3,45 @@
   <ID>JAVA</ID>
   <OriginalElement>BorderDecorator</OriginalElement>
   <nodes>
-    <node x="188.82954545454544" y="122.0">Decorator</node>
-    <node x="165.82954545454544" y="358.0">DecoratorDemo</node>
-    <node x="275.125" y="257.0">ScrollDecorator</node>
-    <node x="195.45833333333337" y="0.0">Widget</node>
-    <node x="0.0" y="111.0">TextField</node>
-    <node x="104.125" y="257.0">BorderDecorator</node>
+    <node x="87.75" y="112.0">Decorator</node>
+    <node x="0.0" y="247.0">ScrollDecorator</node>
+    <node x="166.25" y="0.0">Widget</node>
+    <node x="244.75" y="101.0">TextField</node>
+    <node x="165.0" y="247.0">BorderDecorator</node>
   </nodes>
   <notes />
   <edges>
     <edge source="Decorator" target="Widget">
       <point x="0.0" y="-37.0" />
-      <point x="257.82954545454544" y="91.0" />
-      <point x="264.4583333333333" y="91.0" />
-      <point x="-2.8421709430404007E-14" y="25.5" />
+      <point x="156.25" y="76.0" />
+      <point x="200.5" y="76.0" />
+      <point x="-34.25" y="25.5" />
     </edge>
     <edge source="BorderDecorator" target="Decorator">
-      <point x="50.333333333333314" y="-25.5" />
-      <point x="229.95833333333331" y="232.0" />
-      <point x="240.57954545454544" y="232.0" />
-      <point x="-17.25" y="37.0" />
-    </edge>
-    <edge source="DecoratorDemo" target="ScrollDecorator">
-      <point x="23.0" y="-25.5" />
-      <point x="280.82954545454544" y="328.0" />
-      <point x="346.625" y="328.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="ScrollDecorator" target="Widget">
-      <point x="47.66666666666666" y="-25.5" />
-      <point x="394.29166666666663" y="232.0" />
-      <point x="377.75" y="232.0" />
-      <point x="377.75" y="81.0" />
-      <point x="303.88690476190476" y="81.0" />
-      <point x="39.428571428571416" y="25.5" />
+      <point x="0.0" y="-25.5" />
+      <point x="240.0" y="222.0" />
+      <point x="190.5" y="222.0" />
+      <point x="34.25" y="37.0" />
     </edge>
     <edge source="TextField" target="Widget">
       <point x="0.0" y="-48.0" />
-      <point x="69.0" y="71.0" />
-      <point x="205.3154761904762" y="71.0" />
-      <point x="-59.14285714285714" y="25.5" />
+      <point x="313.25" y="76.0" />
+      <point x="269.0" y="76.0" />
+      <point x="34.25" y="25.5" />
     </edge>
     <edge source="ScrollDecorator" target="Decorator">
       <point x="0.0" y="-25.5" />
-      <point x="346.625" y="232.0" />
-      <point x="309.57954545454544" y="232.0" />
-      <point x="51.75" y="37.0" />
-    </edge>
-    <edge source="DecoratorDemo" target="Widget">
-      <point x="69.0" y="-25.5" />
-      <point x="326.82954545454544" y="338.0" />
-      <point x="428.625" y="338.0" />
-      <point x="428.625" y="71.0" />
-      <point x="323.6011904761904" y="71.0" />
-      <point x="59.14285714285708" y="25.5" />
-    </edge>
-    <edge source="DecoratorDemo" target="TextField">
-      <point x="-69.0" y="-25.5" />
-      <point x="188.82954545454544" y="338.0" />
-      <point x="69.0" y="338.0" />
-      <point x="0.0" y="48.0" />
-    </edge>
-    <edge source="DecoratorDemo" target="BorderDecorator">
-      <point x="-23.0" y="-25.5" />
-      <point x="234.82954545454544" y="328.0" />
-      <point x="179.625" y="328.0" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="BorderDecorator" target="Widget">
-      <point x="-50.33333333333334" y="-25.5" />
-      <point x="129.29166666666666" y="232.0" />
-      <point x="164.30411255411255" y="232.0" />
-      <point x="164.30411255411255" y="81.0" />
-      <point x="225.02976190476193" y="81.0" />
-      <point x="-39.428571428571445" y="25.5" />
+      <point x="72.5" y="222.0" />
+      <point x="122.0" y="222.0" />
+      <point x="-34.25" y="37.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="204.5" />
-  <SelectedNodes>
-    <node>BorderDecorator</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="205.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
-    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
