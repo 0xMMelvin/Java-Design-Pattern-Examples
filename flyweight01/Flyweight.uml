@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ColorBox2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="7016.5">ThreadPool2</node>
+    <node x="1922.0806277056286" y="2220.5">java.awt.Component.DummyRequestFocusController</node>
+    <node x="3023.2345779220786" y="2187.5">java.awt.Component.BaselineResizeBehavior</node>
+    <node x="618.0806277056283" y="2198.0">java.awt.MenuContainer</node>
+    <node x="233.67538370720172" y="33.0">javax.accessibility.Accessible</node>
+    <node x="296.848484848485" y="1150.0">java.awt.Canvas</node>
+    <node x="1546.8804112554117" y="2550.0">java.awt.Component</node>
+    <node x="1240.0806277056286" y="2132.0">java.awt.image.ImageObserver</node>
+    <node x="831.9318181818185" y="1537.0">java.awt.Component.FlipBufferStrategy</node>
+    <node x="2988.6512445887456" y="44.0">java.io.Serializable</node>
+    <node x="463.08062770562833" y="2231.5">java.awt.Component.AWTTreeLock</node>
+    <node x="2098.2422668240847" y="0.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler</node>
+    <node x="70.96130952381031" y="11903.0">ColorBoxes2</node>
+    <node x="2534.0806277056286" y="1592.0">java.awt.Component.BltBufferStrategy</node>
+    <node x="2269.473484848485" y="187.0">java.awt.Component.AccessibleAWTComponent</node>
+    <node x="59.02955037386823" y="2220.5">ThreadPool2.HandlerThread</node>
+    <node x="909.0806277056284" y="2209.5">java.awt.Component.FlipSubRegionBufferStrategy</node>
+    <node x="209.3179112554119" y="11713.0">ColorBox2</node>
+    <node x="1420.857526564345" y="1283.0">java.awt.Component.ProxyCapabilities</node>
+    <node x="420.4253837072017" y="1026.0">java.awt.Canvas.AccessibleAWTCanvas</node>
+    <node x="1660.0806277056286" y="2164.5">java.awt.Component.SingleBufferStrategy</node>
+    <node x="2528.8901515151515" y="22.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler</node>
+    <node x="2659.708717040535" y="2209.5">java.awt.Component.BltSubRegionBufferStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ColorBoxes2" target="ThreadPool2">
+      <point x="-61.333333333333485" y="-25.5" />
+      <point x="101.62797619047683" y="11883.0" />
+      <point x="49.5" y="11883.0" />
+      <point x="49.5" y="11693.0" />
+      <point x="27.5" y="11693.0" />
+      <point x="-82.5" y="70.0" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.BltBufferStrategy">
+      <point x="114.75757575757575" y="-4536.5" />
+      <point x="1932.1379870129877" y="2440.0" />
+      <point x="2573.908933490751" y="2440.0" />
+      <point x="2573.908933490751" y="2092.0" />
+      <point x="2607.8306277056286" y="2092.0" />
+      <point x="-73.75" y="202.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+      <point x="-81.96969696969677" y="-4536.5" />
+      <point x="1735.4107142857151" y="2420.0" />
+      <point x="1332.0806277056286" y="2420.0" />
+      <point x="-92.0" y="114.0" />
+    </edge>
+    <edge source="java.awt.Canvas" target="javax.accessibility.Accessible">
+      <point x="-135.66666666666652" y="-158.5" />
+      <point x="364.68181818181847" y="1125.0" />
+      <point x="370.16726682408466" y="1125.0" />
+      <point x="370.16726682408466" y="167.0" />
+      <point x="374.6753837072017" y="167.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler" target="java.awt.Component">
+      <point x="86.0" y="36.5" />
+      <point x="2743.8901515151515" y="147.0" />
+      <point x="2991.208717040535" y="147.0" />
+      <point x="2991.208717040535" y="2500.0" />
+      <point x="2030.5016233766241" y="2500.0" />
+      <point x="213.12121212121224" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.SingleBufferStrategy">
+      <point x="-16.393939393939263" y="-4536.5" />
+      <point x="1800.9864718614726" y="2380.0" />
+      <point x="1750.4556277056286" y="2380.0" />
+      <point x="-30.125" y="81.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.FlipSubRegionBufferStrategy">
+      <point x="-131.1515151515148" y="-4536.5" />
+      <point x="1686.2288961038971" y="2450.0" />
+      <point x="986.5806277056284" y="2450.0" />
+      <point x="-77.5" y="36.5" />
+    </edge>
+    <edge source="ColorBox2" target="java.awt.Component">
+      <point x="77.59999999999991" y="-70.0" />
+      <point x="383.9179112554118" y="11693.0" />
+      <point x="1952.6304112554117" y="11693.0" />
+      <point x="135.25" y="4536.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.BltSubRegionBufferStrategy">
+      <point x="163.939393939394" y="-4536.5" />
+      <point x="1981.3198051948057" y="2470.0" />
+      <point x="2737.208717040535" y="2470.0" />
+      <point x="-77.5" y="36.5" />
+    </edge>
+    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component.FlipBufferStrategy">
+      <point x="-77.5" y="-36.5" />
+      <point x="986.5806277056284" y="2112.0" />
+      <point x="1046.0151515151517" y="2112.0" />
+      <point x="30.583333333333314" y="257.5" />
+    </edge>
+    <edge source="ThreadPool2.HandlerThread" target="ThreadPool2">
+      <point x="17.375" y="25.5" />
+      <point x="145.90455037386823" y="2530.0" />
+      <point x="183.33333333333348" y="2530.0" />
+      <point x="73.33333333333348" y="-70.0" />
+    </edge>
+    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Component.ProxyCapabilities">
+      <point x="91.75" y="-257.5" />
+      <point x="1107.1818181818185" y="1517.0" />
+      <point x="1455.0241932310119" y="1517.0" />
+      <point x="-68.33333333333337" y="25.5" />
+    </edge>
+    <edge source="java.awt.Component.ProxyCapabilities" target="java.awt.Component">
+      <point x="0.0" y="25.5" />
+      <point x="1523.357526564345" y="1517.0" />
+      <point x="1618.5806277056286" y="1517.0" />
+      <point x="1618.5806277056286" y="2400.0" />
+      <point x="1768.1985930735937" y="2400.0" />
+      <point x="-49.18181818181802" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component" target="javax.accessibility.Accessible">
+      <point x="-262.30303030303" y="-4536.5" />
+      <point x="1555.0773809523816" y="2530.0" />
+      <point x="266.348484848485" y="2530.0" />
+      <point x="266.348484848485" y="167.0" />
+      <point x="280.6753837072017" y="167.0" />
+      <point x="-94.0" y="25.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component">
+      <point x="-135.25" y="4536.5" />
+      <point x="1682.1304112554117" y="11643.0" />
+      <point x="1526.8804112554117" y="11643.0" />
+      <point x="1526.8804112554117" y="7086.5" />
+      <point x="-270.5" y="-0.0" />
+    </edge>
+    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component">
+      <point x="77.5" y="36.5" />
+      <point x="2892.208717040535" y="2480.0" />
+      <point x="1997.7137445887452" y="2480.0" />
+      <point x="180.33333333333326" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Canvas">
+      <point x="-91.75" y="-257.5" />
+      <point x="923.6818181818185" y="1517.0" />
+      <point x="663.1484848484849" y="1517.0" />
+      <point x="162.79999999999995" y="158.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.io.Serializable">
+      <point x="229.5151515151515" y="-4536.5" />
+      <point x="2046.8955627705632" y="2510.0" />
+      <point x="3012.7345779220786" y="2510.0" />
+      <point x="3012.7345779220786" y="167.0" />
+      <point x="3046.6512445887456" y="167.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="0.0" y="36.5" />
+      <point x="2657.8901515151515" y="167.0" />
+      <point x="2607.723484848485" y="167.0" />
+      <point x="112.75" y="-389.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="javax.accessibility.Accessible">
+      <point x="-187.91666666666674" y="-389.5" />
+      <point x="2307.056818181818" y="157.0" />
+      <point x="468.6753837072017" y="157.0" />
+      <point x="94.0" y="25.5" />
+    </edge>
+    <edge source="ThreadPool2.HandlerThread" target="ColorBox2">
+      <point x="52.125" y="25.5" />
+      <point x="180.65455037386823" y="2520.0" />
+      <point x="230.5" y="2520.0" />
+      <point x="230.5" y="11673.0" />
+      <point x="306.3179112554119" y="11673.0" />
+      <point x="0.0" y="-70.0" />
+    </edge>
+    <edge source="java.awt.Component.BltBufferStrategy" target="java.awt.Component">
+      <point x="24.583333333333485" y="202.5" />
+      <point x="2706.163961038962" y="2112.0" />
+      <point x="2649.208717040535" y="2112.0" />
+      <point x="2649.208717040535" y="2460.0" />
+      <point x="1964.9258658008662" y="2460.0" />
+      <point x="147.5454545454545" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.DummyRequestFocusController">
+      <point x="49.181818181818244" y="-4536.5" />
+      <point x="1866.5622294372301" y="2400.0" />
+      <point x="2017.247294372295" y="2400.0" />
+      <point x="-190.33333333333326" y="25.5" />
+    </edge>
+    <edge source="java.awt.Component.AWTTreeLock" target="java.awt.Component">
+      <point x="33.5" y="14.5" />
+      <point x="563.5806277056283" y="2500.0" />
+      <point x="1604.2591991342001" y="2500.0" />
+      <point x="-213.12121212121178" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component">
+      <point x="56.375" y="389.5" />
+      <point x="2551.348484848485" y="1006.0" />
+      <point x="2503.5806277056286" y="1006.0" />
+      <point x="2503.5806277056286" y="2430.0" />
+      <point x="1915.7440476190482" y="2430.0" />
+      <point x="98.36363636363649" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Canvas" target="java.awt.Canvas">
+      <point x="-162.79999999999995" y="158.5" />
+      <point x="337.54848484848503" y="1487.0" />
+      <point x="276.848484848485" y="1487.0" />
+      <point x="276.848484848485" y="1308.5" />
+      <point x="-203.5" y="-0.0" />
+    </edge>
+    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.awt.Component">
+      <point x="48.0" y="58.5" />
+      <point x="3167.2345779220786" y="2530.0" />
+      <point x="2079.683441558442" y="2530.0" />
+      <point x="262.30303030303025" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler" target="java.awt.Component">
+      <point x="-110.66666666666674" y="58.5" />
+      <point x="2153.575600157418" y="167.0" />
+      <point x="1911.5806277056286" y="167.0" />
+      <point x="1911.5806277056286" y="2390.0" />
+      <point x="1850.1682900432907" y="2390.0" />
+      <point x="32.78787878787898" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler">
+      <point x="-112.75" y="-389.5" />
+      <point x="2382.223484848485" y="147.0" />
+      <point x="2264.2422668240847" y="147.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.BaselineResizeBehavior">
+      <point x="245.909090909091" y="-4536.5" />
+      <point x="2063.2895021645027" y="2520.0" />
+      <point x="3071.2345779220786" y="2520.0" />
+      <point x="-48.0" y="58.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler">
+      <point x="37.58333333333326" y="-389.5" />
+      <point x="2532.556818181818" y="167.0" />
+      <point x="2571.8901515151515" y="167.0" />
+      <point x="-86.0" y="36.5" />
+    </edge>
+    <edge source="ColorBoxes2" target="ColorBox2">
+      <point x="61.333333333333485" y="-25.5" />
+      <point x="224.2946428571438" y="11883.0" />
+      <point x="306.3179112554119" y="11883.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.FlipBufferStrategy">
+      <point x="-98.36363636363603" y="-4536.5" />
+      <point x="1719.0167748917756" y="2430.0" />
+      <point x="1229.5806277056286" y="2430.0" />
+      <point x="1229.5806277056286" y="2112.0" />
+      <point x="1168.348484848485" y="2112.0" />
+      <point x="152.91666666666663" y="257.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.io.Serializable">
+      <point x="187.91666666666652" y="-389.5" />
+      <point x="2682.8901515151515" y="157.0" />
+      <point x="3007.9845779220786" y="157.0" />
+      <point x="-38.666666666666515" y="14.5" />
+    </edge>
+    <edge source="java.awt.Canvas.AccessibleAWTCanvas" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="0.0" y="-37.0" />
+      <point x="538.4253837072017" y="1006.0" />
+      <point x="2438.598484848485" y="1006.0" />
+      <point x="-56.375" y="389.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.ProxyCapabilities">
+      <point x="-32.787878787878526" y="-4536.5" />
+      <point x="1784.5925324675331" y="2390.0" />
+      <point x="1629.5806277056286" y="2390.0" />
+      <point x="1629.5806277056286" y="1507.0" />
+      <point x="1591.6908598976784" y="1507.0" />
+      <point x="68.33333333333326" y="25.5" />
+    </edge>
+    <edge source="java.awt.Canvas.AccessibleAWTCanvas" target="java.awt.Canvas">
+      <point x="59.0" y="37.0" />
+      <point x="597.4253837072017" y="1125.0" />
+      <point x="636.0151515151517" y="1125.0" />
+      <point x="135.66666666666674" y="-158.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="110.66666666666674" y="58.5" />
+      <point x="2374.908933490751" y="137.0" />
+      <point x="2457.390151515152" y="137.0" />
+      <point x="-37.58333333333326" y="-389.5" />
+    </edge>
+    <edge source="java.awt.Component.DummyRequestFocusController" target="java.awt.Component">
+      <point x="0.0" y="25.5" />
+      <point x="2207.5806277056286" y="2410.0" />
+      <point x="1882.9561688311696" y="2410.0" />
+      <point x="65.57575757575773" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Canvas" target="java.awt.Component">
+      <point x="81.40000000000009" y="158.5" />
+      <point x="581.7484848484851" y="1517.0" />
+      <point x="607.5806277056283" y="1517.0" />
+      <point x="607.5806277056283" y="2490.0" />
+      <point x="1620.6531385281396" y="2490.0" />
+      <point x="-196.7272727272723" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.BltBufferStrategy" target="java.awt.Component.BltBufferStrategy">
+      <point x="-122.91666666666663" y="202.5" />
+      <point x="2558.663961038962" y="2017.0" />
+      <point x="2514.0806277056286" y="2017.0" />
+      <point x="2514.0806277056286" y="1794.5" />
+      <point x="-147.5" y="-0.0" />
+    </edge>
+    <edge source="ColorBox2" target="ThreadPool2">
+      <point x="-77.59999999999991" y="-70.0" />
+      <point x="228.717911255412" y="11693.0" />
+      <point x="137.5" y="11693.0" />
+      <point x="27.5" y="70.0" />
+    </edge>
+    <edge source="ThreadPool2" target="ThreadPool2.HandlerThread">
+      <point x="-73.33333333333348" y="-70.0" />
+      <point x="36.666666666666515" y="2530.0" />
+      <point x="76.40455037386823" y="2530.0" />
+      <point x="-52.125" y="25.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="-169.125" y="389.5" />
+      <point x="2325.848484848485" y="986.0" />
+      <point x="2249.473484848485" y="986.0" />
+      <point x="2249.473484848485" y="576.5" />
+      <point x="-225.5" y="-0.0" />
+    </edge>
+    <edge source="ThreadPool2" target="ColorBox2">
+      <point x="82.5" y="70.0" />
+      <point x="192.5" y="11683.0" />
+      <point x="267.5179112554117" y="11683.0" />
+      <point x="-38.80000000000018" y="-70.0" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.MenuContainer">
+      <point x="-180.33333333333303" y="-4536.5" />
+      <point x="1637.0470779220786" y="2480.0" />
+      <point x="747.5806277056283" y="2480.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="java.awt.Component.SingleBufferStrategy" target="java.awt.Component">
+      <point x="90.375" y="81.5" />
+      <point x="1870.9556277056286" y="2380.0" />
+      <point x="1833.7743506493512" y="2380.0" />
+      <point x="16.39393939393949" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Component">
+      <point x="-30.58333333333337" y="257.5" />
+      <point x="984.8484848484851" y="2102.0" />
+      <point x="898.5806277056284" y="2102.0" />
+      <point x="898.5806277056284" y="2460.0" />
+      <point x="1669.8349567099576" y="2460.0" />
+      <point x="-147.54545454545428" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Canvas" target="java.awt.Canvas.AccessibleAWTCanvas">
+      <point x="0.0" y="-158.5" />
+      <point x="500.348484848485" y="1125.0" />
+      <point x="479.4253837072017" y="1125.0" />
+      <point x="-59.0" y="37.0" />
+    </edge>
+    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Component.FlipBufferStrategy">
+      <point x="-152.91666666666663" y="257.5" />
+      <point x="862.5151515151518" y="2072.0" />
+      <point x="811.9318181818185" y="2072.0" />
+      <point x="811.9318181818185" y="1794.5" />
+      <point x="-183.5" y="-0.0" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component.AWTTreeLock">
+      <point x="-229.51515151515105" y="-4536.5" />
+      <point x="1587.8652597402606" y="2510.0" />
+      <point x="496.58062770562833" y="2510.0" />
+      <point x="-33.5" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.io.Serializable">
+      <point x="0.0" y="-58.5" />
+      <point x="3119.2345779220786" y="167.0" />
+      <point x="3085.3179112554117" y="167.0" />
+      <point x="38.666666666666515" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component.BltBufferStrategy">
+      <point x="-77.5" y="-36.5" />
+      <point x="2737.208717040535" y="2112.0" />
+      <point x="2755.330627705628" y="2112.0" />
+      <point x="73.75" y="202.5" />
+    </edge>
+    <edge source="ColorBox2" target="java.awt.Canvas">
+      <point x="38.80000000000018" y="-70.0" />
+      <point x="345.1179112554121" y="11663.0" />
+      <point x="241.5" y="11663.0" />
+      <point x="241.5" y="1517.0" />
+      <point x="418.9484848484849" y="1517.0" />
+      <point x="-81.40000000000009" y="158.5" />
+    </edge>
+    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component">
+      <point x="77.5" y="36.5" />
+      <point x="1141.5806277056286" y="2440.0" />
+      <point x="1702.6228354978361" y="2440.0" />
+      <point x="-114.75757575757552" y="-4536.5" />
+    </edge>
+    <edge source="java.awt.Component.SingleBufferStrategy" target="java.awt.Component.SingleBufferStrategy">
+      <point x="-90.375" y="81.5" />
+      <point x="1690.2056277056286" y="2347.5" />
+      <point x="1640.0806277056286" y="2347.5" />
+      <point x="1640.0806277056286" y="2246.0" />
+      <point x="-120.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.095540337397695" x="1608.0" y="5977.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

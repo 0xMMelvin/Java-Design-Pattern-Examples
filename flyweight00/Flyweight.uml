@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory</OriginalElement>
+  <nodes>
+    <node x="22.0" y="248.0">FlyweightDemo</node>
+    <node x="33.0" y="0.0">Gazillion</node>
+    <node x="0.0" y="124.0">Factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory" target="Gazillion">
+      <point x="-76.0" y="-37.0" />
+      <point x="38.0" y="99.0" />
+      <point x="60.0" y="99.0" />
+      <point x="-54.0" y="37.0" />
+    </edge>
+    <edge source="FlyweightDemo" target="Factory">
+      <point x="-46.0" y="-48.0" />
+      <point x="68.0" y="223.0" />
+      <point x="57.0" y="223.0" />
+      <point x="-57.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="172.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

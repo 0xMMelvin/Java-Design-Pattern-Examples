@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Chain</OriginalElement>
+  <nodes>
+    <node x="152.50000000000003" y="336.0">High</node>
+    <node x="10.5" y="134.0">StateDisc</node>
+    <node x="118.4305555555556" y="0.0">Chain</node>
+    <node x="232.19246031746033" y="516.0">Low</node>
+    <node x="166.69246031746033" y="235.0">State</node>
+    <node x="105.50000000000003" y="415.0">Medium</node>
+    <node x="215.5" y="134.0">Off</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Medium" target="Chain">
+      <point x="-55.0" y="-25.5" />
+      <point x="133.00000000000003" y="390.0" />
+      <point x="0.0" y="390.0" />
+      <point x="0.0" y="94.0" />
+      <point x="129.2638888888889" y="94.0" />
+      <point x="-54.166666666666686" y="37.0" />
+    </edge>
+    <edge source="High" target="State">
+      <point x="0.0" y="-14.5" />
+      <point x="191.00000000000003" y="311.0" />
+      <point x="194.19246031746033" y="311.0" />
+      <point x="-55.0" y="25.5" />
+    </edge>
+    <edge source="State" target="Chain">
+      <point x="-55.00000000000003" y="-25.5" />
+      <point x="194.1924603174603" y="210.0" />
+      <point x="205.0" y="210.0" />
+      <point x="205.0" y="114.0" />
+      <point x="194.2638888888889" y="114.0" />
+      <point x="10.833333333333314" y="37.0" />
+    </edge>
+    <edge source="Medium" target="High">
+      <point x="0.0" y="-25.5" />
+      <point x="188.00000000000003" y="390.0" />
+      <point x="191.00000000000003" y="390.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Off" target="Low">
+      <point x="55.0" y="25.5" />
+      <point x="353.0" y="210.0" />
+      <point x="358.0" y="210.0" />
+      <point x="358.0" y="491.0" />
+      <point x="335.31746031746036" y="491.0" />
+      <point x="20.625" y="-25.5" />
+    </edge>
+    <edge source="Low" target="Medium">
+      <point x="-61.875" y="-25.5" />
+      <point x="252.81746031746033" y="491.0" />
+      <point x="188.00000000000003" y="491.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Low" target="Chain">
+      <point x="61.875" y="-25.5" />
+      <point x="376.56746031746036" y="491.0" />
+      <point x="391.0" y="491.0" />
+      <point x="391.0" y="104.0" />
+      <point x="237.59722222222229" y="104.0" />
+      <point x="54.166666666666686" y="37.0" />
+    </edge>
+    <edge source="State" target="Off">
+      <point x="-2.8421709430404007E-14" y="-25.5" />
+      <point x="249.1924603174603" y="210.0" />
+      <point x="243.0" y="210.0" />
+      <point x="-55.0" y="25.5" />
+    </edge>
+    <edge source="Off" target="State">
+      <point x="0.0" y="25.5" />
+      <point x="298.0" y="210.0" />
+      <point x="304.1924603174603" y="210.0" />
+      <point x="54.99999999999997" y="-25.5" />
+    </edge>
+    <edge source="Medium" target="State">
+      <point x="55.0" y="-25.5" />
+      <point x="243.00000000000003" y="390.0" />
+      <point x="266.78769841269843" y="390.0" />
+      <point x="266.78769841269843" y="311.0" />
+      <point x="249.19246031746033" y="311.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Low" target="State">
+      <point x="-20.625" y="-25.5" />
+      <point x="294.06746031746036" y="491.0" />
+      <point x="297.3730158730159" y="491.0" />
+      <point x="297.3730158730159" y="311.0" />
+      <point x="304.1924603174603" y="311.0" />
+      <point x="54.99999999999997" y="25.5" />
+    </edge>
+    <edge source="Off" target="Chain">
+      <point x="0.0" y="-25.5" />
+      <point x="298.0" y="114.0" />
+      <point x="215.9305555555556" y="114.0" />
+      <point x="32.5" y="37.0" />
+    </edge>
+    <edge source="StateDisc" target="Chain">
+      <point x="-46.0" y="-25.5" />
+      <point x="56.5" y="104.0" />
+      <point x="150.9305555555556" y="104.0" />
+      <point x="-32.5" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="283.5" />
+  <SelectedNodes>
+    <node>Chain</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

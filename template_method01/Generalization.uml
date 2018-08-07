@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Generalization</OriginalElement>
+  <nodes>
+    <node x="33.0" y="501.0">TemplateMethodDemo</node>
+    <node x="2.0" y="189.0">Specialization</node>
+    <node x="0.0" y="356.0">Realization</node>
+    <node x="34.5" y="0.0">Generalization</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TemplateMethodDemo" target="Realization">
+      <point x="-46.5" y="-25.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Realization" target="Specialization">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="TemplateMethodDemo" target="Generalization">
+      <point x="46.5" y="-25.5" />
+      <point x="45.75" y="69.5" />
+    </edge>
+    <edge source="Specialization" target="Generalization">
+      <point x="0.0" y="-58.5" />
+      <point x="-45.75" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="109.5" y="276.0" />
+  <SelectedNodes>
+    <node>Generalization</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

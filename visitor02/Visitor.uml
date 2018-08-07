@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Component</OriginalElement>
+  <nodes>
+    <node x="60.25" y="291.0">VisitorComposite1</node>
+    <node x="0.0" y="101.0">Composite</node>
+    <node x="223.0" y="134.0">Leaf</node>
+    <node x="73.25" y="0.0">Component</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Leaf" target="Component">
+      <point x="0.0" y="-37.0" />
+      <point x="302.0" y="76.0" />
+      <point x="204.91666666666666" y="76.0" />
+      <point x="52.66666666666666" y="25.5" />
+    </edge>
+    <edge source="VisitorComposite1" target="Composite">
+      <point x="0.0" y="-25.5" />
+      <point x="50.75" y="70.0" />
+    </edge>
+    <edge source="Composite" target="Component">
+      <point x="50.75" y="-70.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="VisitorComposite1" target="Leaf">
+      <point x="61.33333333333334" y="-25.5" />
+      <point x="213.58333333333334" y="266.0" />
+      <point x="302.0" y="266.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="190.5" y="171.0" />
+  <SelectedNodes>
+    <node>Component</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

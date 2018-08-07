@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FactoryProto.Factory</OriginalElement>
+  <nodes>
+    <node x="486.6722222222222" y="225.0">FactoryProto.Jack</node>
+    <node x="39.42222222222222" y="101.0">FactoryProto.Factory</node>
+    <node x="273.4222222222222" y="112.5">FactoryProto.Xyz</node>
+    <node x="297.6722222222222" y="225.0">FactoryProto.Harry</node>
+    <node x="250.42222222222222" y="0.0">FactoryProto</node>
+    <node x="0.0" y="225.0">FactoryProto.Tom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FactoryProto.Harry" target="FactoryProto">
+      <point x="42.25" y="-36.5" />
+      <point x="424.4222222222222" y="205.0" />
+      <point x="421.9222222222222" y="205.0" />
+      <point x="421.9222222222222" y="81.0" />
+      <point x="379.22222222222223" y="81.0" />
+      <point x="36.80000000000001" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Harry" target="FactoryProto.Xyz">
+      <point x="-42.25" y="-36.5" />
+      <point x="339.9222222222222" y="205.0" />
+      <point x="342.4222222222222" y="205.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Xyz" target="FactoryProto">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Factory" target="FactoryProto">
+      <point x="0.0" y="-37.0" />
+      <point x="146.42222222222222" y="81.0" />
+      <point x="305.6222222222222" y="81.0" />
+      <point x="-36.80000000000001" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Jack" target="FactoryProto">
+      <point x="42.25" y="-36.5" />
+      <point x="613.4222222222222" y="71.0" />
+      <point x="416.02222222222224" y="71.0" />
+      <point x="73.60000000000002" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Tom" target="FactoryProto.Xyz">
+      <point x="42.25" y="-36.5" />
+      <point x="126.75" y="205.0" />
+      <point x="296.4222222222222" y="205.0" />
+      <point x="-46.0" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Jack" target="FactoryProto.Xyz">
+      <point x="-42.25" y="-36.5" />
+      <point x="528.9222222222222" y="195.0" />
+      <point x="388.4222222222222" y="195.0" />
+      <point x="46.0" y="25.5" />
+    </edge>
+    <edge source="FactoryProto.Tom" target="FactoryProto">
+      <point x="-42.25" y="-36.5" />
+      <point x="42.25" y="205.0" />
+      <point x="28.922222222222217" y="205.0" />
+      <point x="28.922222222222217" y="71.0" />
+      <point x="268.8222222222222" y="71.0" />
+      <point x="-73.60000000000002" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="328.0" y="149.0" />
+  <SelectedNodes>
+    <node>FactoryProto.Factory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

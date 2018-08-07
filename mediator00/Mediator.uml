@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Consumer</OriginalElement>
+  <nodes>
+    <node x="250.96302083333342" y="33.5">java.lang.FunctionalInterface</node>
+    <node x="895.0617187500001" y="0.0">java.lang.Thread.WeakClassKey</node>
+    <node x="933.7500000000001" y="2600.0">Producer</node>
+    <node x="760.2325520833334" y="2600.0">Consumer</node>
+    <node x="308.00000000000006" y="231.0">java.lang.Thread.UncaughtExceptionHandler</node>
+    <node x="671.0" y="220.0">java.lang.Thread.Caches</node>
+    <node x="961.0000000000001" y="2768.0">MediatorDemo</node>
+    <node x="111.50000000000011" y="427.0">java.lang.Thread</node>
+    <node x="867.5000000000001" y="1384.5">Mediator</node>
+    <node x="159.0" y="231.0">java.lang.Runnable</node>
+    <node x="0.0" y="176.0">java.lang.Thread.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MediatorDemo" target="Mediator">
+      <point x="23.0" y="-25.5" />
+      <point x="1076.0" y="2743.0" />
+      <point x="1096.25" y="2743.0" />
+      <point x="1096.25" y="2530.0" />
+      <point x="1025.0" y="2530.0" />
+      <point x="52.5" y="59.0" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread.Caches">
+      <point x="131.42857142857144" y="-1016.5" />
+      <point x="610.9285714285716" y="367.0" />
+      <point x="777.5" y="367.0" />
+      <point x="-106.5" y="36.5" />
+    </edge>
+    <edge source="Producer" target="java.lang.Thread">
+      <point x="-50.66666666666663" y="-59.0" />
+      <point x="959.0833333333335" y="2560.0" />
+      <point x="773.9000000000002" y="2560.0" />
+      <point x="294.4000000000001" y="1016.5" />
+    </edge>
+    <edge source="MediatorDemo" target="Producer">
+      <point x="-23.0" y="-25.5" />
+      <point x="1030.0" y="2743.0" />
+      <point x="1009.7500000000001" y="2743.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="java.lang.Thread.State" target="java.lang.Thread">
+      <point x="34.75" y="80.5" />
+      <point x="104.25" y="397.0" />
+      <point x="190.357142857143" y="397.0" />
+      <point x="-289.1428571428571" y="-1016.5" />
+    </edge>
+    <edge source="Consumer" target="java.lang.Thread">
+      <point x="-50.66666666666663" y="-59.0" />
+      <point x="785.5658854166668" y="2580.0" />
+      <point x="626.7000000000002" y="2580.0" />
+      <point x="147.20000000000005" y="1016.5" />
+    </edge>
+    <edge source="Producer" target="Mediator">
+      <point x="0.0" y="-59.0" />
+      <point x="1009.7500000000001" y="2550.0" />
+      <point x="955.0000000000001" y="2550.0" />
+      <point x="-17.5" y="59.0" />
+    </edge>
+    <edge source="java.lang.Thread.UncaughtExceptionHandler" target="java.lang.Thread">
+      <point x="128.625" y="25.5" />
+      <point x="608.125" y="357.0" />
+      <point x="558.3571428571429" y="357.0" />
+      <point x="78.85714285714278" y="-1016.5" />
+    </edge>
+    <edge source="java.lang.Thread.Caches" target="java.lang.Thread">
+      <point x="106.5" y="36.5" />
+      <point x="990.5" y="377.0" />
+      <point x="663.5000000000001" y="377.0" />
+      <point x="184.0" y="-1016.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread.WeakClassKey">
+      <point x="289.1428571428571" y="-1016.5" />
+      <point x="768.6428571428572" y="397.0" />
+      <point x="1118.5" y="397.0" />
+      <point x="1118.5" y="146.0" />
+      <point x="1042.76171875" y="146.0" />
+      <point x="42.19999999999993" y="48.0" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread.State">
+      <point x="-341.71428571428567" y="-1016.5" />
+      <point x="137.78571428571445" y="407.0" />
+      <point x="34.75" y="407.0" />
+      <point x="-34.75" y="80.5" />
+    </edge>
+    <edge source="java.lang.Thread.WeakClassKey" target="java.lang.Thread.WeakClassKey">
+      <point x="-84.4" y="48.0" />
+      <point x="916.1617187500001" y="116.0" />
+      <point x="875.0617187500001" y="116.0" />
+      <point x="875.0617187500001" y="48.0" />
+      <point x="-105.5" y="-0.0" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-25.5" />
+      <point x="223.5" y="156.0" />
+      <point x="292.4630208333334" y="156.0" />
+      <point x="-41.5" y="14.5" />
+    </edge>
+    <edge source="MediatorDemo" target="Consumer">
+      <point x="-69.0" y="-25.5" />
+      <point x="984.0000000000001" y="2743.0" />
+      <point x="836.2325520833334" y="2743.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Consumer" target="Mediator">
+      <point x="50.66666666666674" y="-59.0" />
+      <point x="886.8992187500002" y="2580.0" />
+      <point x="920.0000000000001" y="2580.0" />
+      <point x="-52.5" y="59.0" />
+    </edge>
+    <edge source="java.lang.Thread.UncaughtExceptionHandler" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-25.5" />
+      <point x="479.50000000000006" y="156.0" />
+      <point x="375.4630208333334" y="156.0" />
+      <point x="41.5" y="14.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread.UncaughtExceptionHandler">
+      <point x="-78.85714285714289" y="-1016.5" />
+      <point x="400.6428571428572" y="357.0" />
+      <point x="350.87500000000006" y="357.0" />
+      <point x="-128.625" y="25.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread">
+      <point x="-294.4" y="1016.5" />
+      <point x="185.10000000000014" y="2480.0" />
+      <point x="91.50000000000011" y="2480.0" />
+      <point x="91.50000000000011" y="2121.1666666666665" />
+      <point x="-368.0" y="677.6666666666666" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="-131.42857142857144" y="-1016.5" />
+      <point x="348.07142857142867" y="367.0" />
+      <point x="266.5" y="367.0" />
+      <point x="43.0" y="25.5" />
+    </edge>
+    <edge source="java.lang.Thread.Caches" target="java.lang.Thread.WeakClassKey">
+      <point x="0.0" y="-36.5" />
+      <point x="884.0" y="156.0" />
+      <point x="958.36171875" y="156.0" />
+      <point x="-42.200000000000045" y="48.0" />
+    </edge>
+    <edge source="java.lang.Thread.WeakClassKey" target="java.lang.Thread">
+      <point x="0.0" y="48.0" />
+      <point x="1000.5617187500001" y="156.0" />
+      <point x="1107.5" y="156.0" />
+      <point x="1107.5" y="387.0" />
+      <point x="716.0714285714287" y="387.0" />
+      <point x="236.57142857142856" y="-1016.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40295878830574144" x="573.0" y="1409.5" />
+  <SelectedNodes>
+    <node>Consumer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

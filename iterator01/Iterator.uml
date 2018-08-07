@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>IntSet</OriginalElement>
+  <nodes>
+    <node x="62.458333333333314" y="403.0">IteratorDemo</node>
+    <node x="46.958333333333314" y="0.0">IntSet.Iterator</node>
+    <node x="0.0" y="235.0">IntSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="IteratorDemo" target="IntSet">
+      <point x="0.0" y="-25.5" />
+      <point x="154.45833333333331" y="378.0" />
+      <point x="157.5" y="378.0" />
+      <point x="52.5" y="59.0" />
+    </edge>
+    <edge source="IntSet" target="IntSet.Iterator">
+      <point x="-84.0" y="-59.0" />
+      <point x="21.0" y="205.0" />
+      <point x="61.04166666666664" y="205.0" />
+      <point x="-70.41666666666667" y="92.5" />
+    </edge>
+    <edge source="IntSet.Iterator" target="IntSet">
+      <point x="-14.083333333333329" y="92.5" />
+      <point x="117.37499999999999" y="215.0" />
+      <point x="105.0" y="215.0" />
+      <point x="0.0" y="-59.0" />
+    </edge>
+    <edge source="IteratorDemo" target="IntSet.Iterator">
+      <point x="61.33333333333334" y="-25.5" />
+      <point x="215.79166666666666" y="378.0" />
+      <point x="220.5" y="378.0" />
+      <point x="220.5" y="215.0" />
+      <point x="201.875" y="215.0" />
+      <point x="70.41666666666669" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="123.5" y="227.0" />
+  <SelectedNodes>
+    <node>IntSet</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

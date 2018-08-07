@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>SomeClassWithData</OriginalElement>
+  <nodes>
+    <node x="162.26904761904763" y="381.0">IteratorDemo</node>
+    <node x="80.31428571428572" y="0.0">SomeClassWithData</node>
+    <node x="0.0" y="146.0">SomeClassWithData.Iterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="IteratorDemo" target="SomeClassWithData.Iterator">
+      <point x="-61.33333333333334" y="-25.5" />
+      <point x="192.93571428571428" y="356.0" />
+      <point x="136.0" y="356.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="IteratorDemo" target="SomeClassWithData">
+      <point x="0.0" y="-25.5" />
+      <point x="254.26904761904763" y="356.0" />
+      <point x="282.5" y="356.0" />
+      <point x="282.5" y="126.0" />
+      <point x="254.74285714285713" y="126.0" />
+      <point x="63.428571428571416" y="48.0" />
+    </edge>
+    <edge source="SomeClassWithData" target="SomeClassWithData.Iterator">
+      <point x="-1.4210854715202004E-14" y="48.0" />
+      <point x="54.39999999999998" y="-92.5" />
+    </edge>
+    <edge source="SomeClassWithData.Iterator" target="SomeClassWithData">
+      <point x="0.0" y="-92.5" />
+      <point x="136.0" y="126.0" />
+      <point x="159.6" y="126.0" />
+      <point x="-31.714285714285722" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="173.5" y="216.0" />
+  <SelectedNodes>
+    <node>SomeClassWithData</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

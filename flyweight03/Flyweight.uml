@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ButtonListener</OriginalElement>
+  <nodes>
+    <node x="0.0" y="180.0">ButtonListener</node>
+    <node x="76.5" y="0.0">java.util.EventListener</node>
+    <node x="0.0" y="79.0">java.awt.event.ActionListener</node>
+    <node x="24.0" y="281.0">FlyweightFactory</node>
+    <node x="50.5" y="471.0">FlyweightDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FlyweightDemo" target="FlyweightFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="FlyweightFactory" target="ButtonListener">
+      <point x="59.25" y="-70.0" />
+      <point x="201.75" y="256.0" />
+      <point x="213.75" y="256.0" />
+      <point x="71.25" y="25.5" />
+    </edge>
+    <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ButtonListener" target="java.awt.event.ActionListener">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="142.5" y="261.0" />
+  <SelectedNodes>
+    <node>ButtonListener</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

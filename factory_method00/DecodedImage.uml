@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DecodedImage</OriginalElement>
+  <nodes>
+    <node x="128.79166666666669" y="0.0">DecodedImage</node>
+    <node x="255.0" y="180.0">JpegReader</node>
+    <node x="0.0" y="180.0">GifReader</node>
+    <node x="149.29166666666669" y="79.0">ImageReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="JpegReader" target="DecodedImage">
+      <point x="58.75" y="-25.5" />
+      <point x="431.25" y="155.0" />
+      <point x="408.55357142857144" y="155.0" />
+      <point x="408.55357142857144" y="49.0" />
+      <point x="249.54166666666669" y="49.0" />
+      <point x="51.75" y="14.5" />
+    </edge>
+    <edge source="JpegReader" target="ImageReader">
+      <point x="-58.75" y="-25.5" />
+      <point x="313.75" y="155.0" />
+      <point x="325.5416666666667" y="155.0" />
+      <point x="58.75" y="25.5" />
+    </edge>
+    <edge source="GifReader" target="DecodedImage">
+      <point x="0.0" y="-25.5" />
+      <point x="117.5" y="155.0" />
+      <point x="104.48214285714288" y="155.0" />
+      <point x="104.48214285714288" y="59.0" />
+      <point x="180.54166666666669" y="59.0" />
+      <point x="-17.25" y="14.5" />
+    </edge>
+    <edge source="ImageReader" target="DecodedImage">
+      <point x="0.0" y="-25.5" />
+      <point x="266.7916666666667" y="59.0" />
+      <point x="215.04166666666669" y="59.0" />
+      <point x="17.25" y="14.5" />
+    </edge>
+    <edge source="GifReader" target="ImageReader">
+      <point x="78.33333333333331" y="-25.5" />
+      <point x="195.83333333333331" y="155.0" />
+      <point x="208.04166666666669" y="155.0" />
+      <point x="-58.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="245.0" y="115.5" />
+  <SelectedNodes>
+    <node>DecodedImage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

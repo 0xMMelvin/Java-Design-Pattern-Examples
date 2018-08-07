@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DownVisitor</OriginalElement>
+  <nodes>
+    <node x="337.02750771604934" y="111.0">That</node>
+    <node x="349.12330246913587" y="697.0">VisitorDemo</node>
+    <node x="50.840007716049286" y="532.0">UpVisitor</node>
+    <node x="269.4375" y="244.0">Visitor</node>
+    <node x="397.2180941358024" y="0.0">Element</node>
+    <node x="126.52750771604934" y="111.0">This</node>
+    <node x="386.7180941358024" y="389.0">TheOther</node>
+    <node x="297.8733024691359" y="532.0">DownVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DownVisitor" target="That">
+      <point x="71.625" y="-47.5" />
+      <point x="464.9983024691359" y="512.0" />
+      <point x="601.4375" y="512.0" />
+      <point x="601.4375" y="224.0" />
+      <point x="469.32750771604935" y="224.0" />
+      <point x="37.80000000000001" y="36.5" />
+    </edge>
+    <edge source="VisitorDemo" target="UpVisitor">
+      <point x="-40.88888888888886" y="-37.0" />
+      <point x="400.234413580247" y="657.0" />
+      <point x="194.09000771604929" y="657.0" />
+      <point x="47.75" y="47.5" />
+    </edge>
+    <edge source="UpVisitor" target="This">
+      <point x="-71.62499999999994" y="-47.5" />
+      <point x="74.71500771604934" y="512.0" />
+      <point x="97.12500000000006" y="512.0" />
+      <point x="97.12500000000006" y="214.0" />
+      <point x="183.2275077160494" y="214.0" />
+      <point x="-37.799999999999955" y="36.5" />
+    </edge>
+    <edge source="Visitor" target="This">
+      <point x="-76.39999999999998" y="-47.5" />
+      <point x="288.5375" y="214.0" />
+      <point x="258.8275077160493" y="214.0" />
+      <point x="37.799999999999955" y="36.5" />
+    </edge>
+    <edge source="DownVisitor" target="This">
+      <point x="-71.625" y="-47.5" />
+      <point x="321.7483024691359" y="482.0" />
+      <point x="238.68580246913592" y="482.0" />
+      <point x="238.68580246913592" y="214.0" />
+      <point x="221.02750771604934" y="214.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="VisitorDemo" target="This">
+      <point x="-81.77777777777771" y="-37.0" />
+      <point x="359.34552469135815" y="677.0" />
+      <point x="26.0" y="677.0" />
+      <point x="26.0" y="204.0" />
+      <point x="145.42750771604932" y="204.0" />
+      <point x="-75.60000000000002" y="36.5" />
+    </edge>
+    <edge source="This" target="Visitor">
+      <point x="75.60000000000002" y="36.5" />
+      <point x="296.62750771604937" y="214.0" />
+      <point x="326.7375" y="214.0" />
+      <point x="-38.19999999999999" y="-47.5" />
+    </edge>
+    <edge source="Visitor" target="That">
+      <point x="38.19999999999999" y="-47.5" />
+      <point x="403.1375" y="224.0" />
+      <point x="393.72750771604933" y="224.0" />
+      <point x="-37.8" y="36.5" />
+    </edge>
+    <edge source="This" target="Element">
+      <point x="0.0" y="-36.5" />
+      <point x="221.02750771604934" y="71.0" />
+      <point x="412.9680941358024" y="71.0" />
+      <point x="-78.75" y="25.5" />
+    </edge>
+    <edge source="VisitorDemo" target="That">
+      <point x="40.88888888888897" y="-37.0" />
+      <point x="482.01219135802484" y="657.0" />
+      <point x="614.4055941358024" y="657.0" />
+      <point x="614.4055941358024" y="214.0" />
+      <point x="507.12750771604937" y="214.0" />
+      <point x="75.60000000000002" y="36.5" />
+    </edge>
+    <edge source="VisitorDemo" target="Element">
+      <point x="61.33333333333343" y="-37.0" />
+      <point x="502.4566358024693" y="667.0" />
+      <point x="625.4055941358024" y="667.0" />
+      <point x="625.4055941358024" y="81.0" />
+      <point x="538.9680941358024" y="81.0" />
+      <point x="47.250000000000014" y="25.5" />
+    </edge>
+    <edge source="Visitor" target="TheOther">
+      <point x="71.625" y="47.5" />
+      <point x="436.5625" y="364.0" />
+      <point x="481.2180941358024" y="364.0" />
+      <point x="0.0" y="-36.5" />
+    </edge>
+    <edge source="VisitorDemo" target="DownVisitor">
+      <point x="-20.4444444444444" y="-37.0" />
+      <point x="420.67885802469146" y="647.0" />
+      <point x="345.6233024691359" y="647.0" />
+      <point x="-47.75" y="47.5" />
+    </edge>
+    <edge source="DownVisitor" target="TheOther">
+      <point x="23.875" y="-47.5" />
+      <point x="417.2483024691359" y="502.0" />
+      <point x="481.2180941358024" y="502.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="UpVisitor" target="Visitor">
+      <point x="23.875000000000057" y="-47.5" />
+      <point x="170.21500771604937" y="364.0" />
+      <point x="293.3125" y="364.0" />
+      <point x="-71.625" y="47.5" />
+    </edge>
+    <edge source="Element" target="Visitor">
+      <point x="-47.25" y="25.5" />
+      <point x="444.4680941358024" y="81.0" />
+      <point x="326.52750771604934" y="81.0" />
+      <point x="326.52750771604934" y="204.0" />
+      <point x="364.9375" y="204.0" />
+      <point x="0.0" y="-47.5" />
+    </edge>
+    <edge source="UpVisitor" target="TheOther">
+      <point x="71.62500000000006" y="-47.5" />
+      <point x="217.96500771604934" y="492.0" />
+      <point x="418.2180941358024" y="492.0" />
+      <point x="-63.0" y="36.5" />
+    </edge>
+    <edge source="That" target="Element">
+      <point x="0.0" y="-36.5" />
+      <point x="431.52750771604934" y="91.0" />
+      <point x="475.9680941358024" y="91.0" />
+      <point x="-15.75" y="25.5" />
+    </edge>
+    <edge source="That" target="Visitor">
+      <point x="0.0" y="36.5" />
+      <point x="431.52750771604934" y="224.0" />
+      <point x="441.33750000000003" y="224.0" />
+      <point x="76.40000000000003" y="-47.5" />
+    </edge>
+    <edge source="DownVisitor" target="Visitor">
+      <point x="-23.875" y="-47.5" />
+      <point x="369.4983024691359" y="482.0" />
+      <point x="336.3125" y="482.0" />
+      <point x="336.3125" y="364.0" />
+      <point x="341.0625" y="364.0" />
+      <point x="-23.875" y="47.5" />
+    </edge>
+    <edge source="UpVisitor" target="That">
+      <point x="-23.874999999999943" y="-47.5" />
+      <point x="122.46500771604934" y="512.0" />
+      <point x="159.21500771604937" y="512.0" />
+      <point x="159.21500771604937" y="224.0" />
+      <point x="355.9275077160494" y="224.0" />
+      <point x="-75.6" y="36.5" />
+    </edge>
+    <edge source="VisitorDemo" target="TheOther">
+      <point x="20.444444444444514" y="-37.0" />
+      <point x="461.5677469135804" y="647.0" />
+      <point x="537.0275077160493" y="647.0" />
+      <point x="537.0275077160493" y="502.0" />
+      <point x="544.2180941358024" y="502.0" />
+      <point x="63.000000000000014" y="36.5" />
+    </edge>
+    <edge source="TheOther" target="Visitor">
+      <point x="-63.0" y="-36.5" />
+      <point x="418.2180941358024" y="364.0" />
+      <point x="388.8125" y="364.0" />
+      <point x="23.875" y="47.5" />
+    </edge>
+    <edge source="TheOther" target="Element">
+      <point x="63.000000000000014" y="-36.5" />
+      <point x="544.2180941358024" y="364.0" />
+      <point x="556.123302469136" y="364.0" />
+      <point x="556.123302469136" y="91.0" />
+      <point x="507.4680941358024" y="91.0" />
+      <point x="15.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="320.5" y="385.5" />
+  <SelectedNodes>
+    <node>DownVisitor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

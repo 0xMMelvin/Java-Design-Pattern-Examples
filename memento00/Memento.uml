@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Caretaker</OriginalElement>
+  <nodes>
+    <node x="157.80833333333334" y="0.0">Memento</node>
+    <node x="0.0" y="112.0">Caretaker</node>
+    <node x="295.0" y="101.0">Originator</node>
+    <node x="180.53958333333335" y="269.0">MementoExample</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MementoExample" target="Caretaker">
+      <point x="-23.0" y="-25.5" />
+      <point x="249.53958333333335" y="239.0" />
+      <point x="206.25" y="239.0" />
+      <point x="68.75" y="48.0" />
+    </edge>
+    <edge source="MementoExample" target="Originator">
+      <point x="69.0" y="-25.5" />
+      <point x="341.5395833333333" y="249.0" />
+      <point x="517.75" y="249.0" />
+      <point x="74.25" y="59.0" />
+    </edge>
+    <edge source="Originator" target="Memento">
+      <point x="74.25" y="-59.0" />
+      <point x="517.75" y="71.0" />
+      <point x="302.70833333333337" y="71.0" />
+      <point x="64.40000000000003" y="25.5" />
+    </edge>
+    <edge source="Caretaker" target="Memento">
+      <point x="-91.66666666666669" y="-48.0" />
+      <point x="45.833333333333314" y="71.0" />
+      <point x="173.90833333333336" y="71.0" />
+      <point x="-64.4" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="296.0" y="160.0" />
+  <SelectedNodes>
+    <node>Caretaker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

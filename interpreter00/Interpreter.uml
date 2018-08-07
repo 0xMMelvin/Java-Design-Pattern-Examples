@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Expression</OriginalElement>
+  <nodes>
+    <node x="334.0" y="313.0">InterpreterDemo</node>
+    <node x="610.0" y="145.0">Variable</node>
+    <node x="357.0" y="145.0">Number</node>
+    <node x="0.0" y="123.0">Expression</node>
+    <node x="305.0" y="0.0">Operand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Expression" target="Operand">
+      <point x="84.25" y="-70.0" />
+      <point x="252.75" y="103.0" />
+      <point x="406.1" y="103.0" />
+      <point x="-67.39999999999998" y="36.5" />
+    </edge>
+    <edge source="Variable" target="Operand">
+      <point x="0.0" y="-48.0" />
+      <point x="778.5" y="103.0" />
+      <point x="540.9" y="103.0" />
+      <point x="67.39999999999998" y="36.5" />
+    </edge>
+    <edge source="Number" target="Operand">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="InterpreterDemo" target="Expression">
+      <point x="-111.60000000000002" y="-58.5" />
+      <point x="361.9" y="293.0" />
+      <point x="84.25" y="293.0" />
+      <point x="-84.25" y="70.0" />
+    </edge>
+    <edge source="InterpreterDemo" target="Number">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="InterpreterDemo" target="Variable">
+      <point x="55.799999999999955" y="-58.5" />
+      <point x="529.3" y="283.0" />
+      <point x="778.5" y="283.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="InterpreterDemo" target="Operand">
+      <point x="111.60000000000002" y="-58.5" />
+      <point x="585.1" y="293.0" />
+      <point x="957.5" y="293.0" />
+      <point x="957.5" y="93.0" />
+      <point x="608.3" y="93.0" />
+      <point x="134.79999999999995" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="479.0" y="215.0" />
+  <SelectedNodes>
+    <node>Expression</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

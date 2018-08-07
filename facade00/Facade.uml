@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FacadeDemo</OriginalElement>
+  <nodes>
+    <node x="62.125" y="336.0">Line</node>
+    <node x="105.875" y="526.0">FacadeDemo</node>
+    <node x="0.0" y="0.0">PointPolar</node>
+    <node x="82.59722222222223" y="168.0">Point</node>
+    <node x="189.0" y="0.0">PointCarte</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FacadeDemo" target="Point">
+      <point x="61.333333333333314" y="-25.5" />
+      <point x="259.2083333333333" y="501.0" />
+      <point x="253.625" y="501.0" />
+      <point x="253.625" y="311.0" />
+      <point x="250.09722222222223" y="311.0" />
+      <point x="67.0" y="59.0" />
+    </edge>
+    <edge source="FacadeDemo" target="Line">
+      <point x="-61.33333333333334" y="-25.5" />
+      <point x="136.54166666666666" y="501.0" />
+      <point x="107.375" y="501.0" />
+      <point x="-45.25" y="70.0" />
+    </edge>
+    <edge source="Line" target="Point">
+      <point x="45.25" y="-70.0" />
+      <point x="197.875" y="311.0" />
+      <point x="183.09722222222223" y="311.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Point" target="PointPolar">
+      <point x="-25.125" y="-59.0" />
+      <point x="157.97222222222223" y="143.0" />
+      <point x="126.75" y="143.0" />
+      <point x="42.25" y="59.0" />
+    </edge>
+    <edge source="Point" target="PointCarte">
+      <point x="75.375" y="-59.0" />
+      <point x="258.47222222222223" y="143.0" />
+      <point x="324.75" y="143.0" />
+      <point x="45.25" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="185.0" y="288.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

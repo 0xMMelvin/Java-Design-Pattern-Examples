@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BinObserver</OriginalElement>
+  <nodes>
+    <node x="394.7839285714286" y="367.0">HexObserver</node>
+    <node x="0.0" y="367.0">BinObserver</node>
+    <node x="252.43422619047618" y="154.0">TheSubject</node>
+    <node x="220.68422619047618" y="0.0">Observer</node>
+    <node x="275.23928571428576" y="468.0">ObserverDemo</node>
+    <node x="171.0" y="367.0">OctObserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ObserverDemo" target="BinObserver">
+      <point x="-73.60000000000002" y="-25.5" />
+      <point x="293.63928571428573" y="448.0" />
+      <point x="75.5" y="448.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="HexObserver" target="Observer">
+      <point x="50.33333333333334" y="-25.5" />
+      <point x="520.6172619047619" y="347.0" />
+      <point x="492.10089285714287" y="347.0" />
+      <point x="492.10089285714287" y="94.0" />
+      <point x="379.3342261904761" y="94.0" />
+      <point x="75.14999999999995" y="37.0" />
+    </edge>
+    <edge source="Observer" target="TheSubject">
+      <point x="41.74999999999997" y="37.0" />
+      <point x="345.9342261904761" y="114.0" />
+      <point x="433.5592261904762" y="114.0" />
+      <point x="77.625" y="-81.5" />
+    </edge>
+    <edge source="OctObserver" target="Observer">
+      <point x="0.0" y="-25.5" />
+      <point x="246.5" y="337.0" />
+      <point x="236.2675595238095" y="337.0" />
+      <point x="236.2675595238095" y="124.0" />
+      <point x="279.13422619047617" y="124.0" />
+      <point x="-25.05000000000001" y="37.0" />
+    </edge>
+    <edge source="BinObserver" target="TheSubject">
+      <point x="50.333333333333314" y="-25.5" />
+      <point x="125.83333333333331" y="347.0" />
+      <point x="273.13422619047617" y="347.0" />
+      <point x="-82.80000000000001" y="81.5" />
+    </edge>
+    <edge source="BinObserver" target="Observer">
+      <point x="0.0" y="-25.5" />
+      <point x="75.5" y="347.0" />
+      <point x="65.2675595238095" y="347.0" />
+      <point x="65.2675595238095" y="104.0" />
+      <point x="245.7342261904762" y="104.0" />
+      <point x="-58.44999999999999" y="37.0" />
+    </edge>
+    <edge source="TheSubject" target="Observer">
+      <point x="-77.625" y="-81.5" />
+      <point x="278.3092261904762" y="134.0" />
+      <point x="295.8342261904762" y="134.0" />
+      <point x="-8.349999999999994" y="37.0" />
+    </edge>
+    <edge source="ObserverDemo" target="TheSubject">
+      <point x="36.80000000000001" y="-25.5" />
+      <point x="404.0392857142857" y="448.0" />
+      <point x="375.7839285714286" y="448.0" />
+      <point x="375.7839285714286" y="347.0" />
+      <point x="397.3342261904762" y="347.0" />
+      <point x="41.400000000000034" y="81.5" />
+    </edge>
+    <edge source="HexObserver" target="TheSubject">
+      <point x="-50.33333333333334" y="-25.5" />
+      <point x="419.9505952380953" y="347.0" />
+      <point x="438.73422619047625" y="347.0" />
+      <point x="82.80000000000007" y="81.5" />
+    </edge>
+    <edge source="OctObserver" target="TheSubject">
+      <point x="50.333333333333314" y="-25.5" />
+      <point x="296.8333333333333" y="347.0" />
+      <point x="314.5342261904762" y="347.0" />
+      <point x="-41.39999999999998" y="81.5" />
+    </edge>
+    <edge source="ObserverDemo" target="OctObserver">
+      <point x="-36.80000000000001" y="-25.5" />
+      <point x="330.4392857142857" y="438.0" />
+      <point x="246.5" y="438.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="ObserverDemo" target="HexObserver">
+      <point x="73.60000000000002" y="-25.5" />
+      <point x="440.8392857142858" y="448.0" />
+      <point x="470.2839285714286" y="448.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.0" y="259.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

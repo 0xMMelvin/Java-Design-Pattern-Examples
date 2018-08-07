@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Application</OriginalElement>
+  <nodes>
+    <node x="7.5" y="101.0">NullPrintStream</node>
+    <node x="0.0" y="175.0">Application</node>
+    <node x="0.0" y="0.0">NullOutputStream</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="NullPrintStream" target="NullOutputStream">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="102.0" y="124.5" />
+  <SelectedNodes>
+    <node>Application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

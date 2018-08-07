@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>A</OriginalElement>
+  <nodes>
+    <node x="264.675" y="290.0">FSM</node>
+    <node x="0.0" y="145.0">A</node>
+    <node x="251.925" y="524.0">StateDemo</node>
+    <node x="293.0" y="156.0">B</node>
+    <node x="149.0" y="167.0">C</node>
+    <node x="291.275" y="0.0">State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FSM" target="A">
+      <point x="-66.80000000000001" y="-92.0" />
+      <point x="281.375" y="270.0" />
+      <point x="64.5" y="270.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="FSM" target="C">
+      <point x="-33.400000000000034" y="-92.0" />
+      <point x="314.775" y="260.0" />
+      <point x="211.0" y="260.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="FSM" target="B">
+      <point x="0.0" y="-92.0" />
+      <point x="348.175" y="270.0" />
+      <point x="356.0" y="270.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="StateDemo" target="FSM">
+      <point x="46.0" y="-25.5" />
+      <point x="41.75" y="92.0" />
+    </edge>
+    <edge source="A" target="State">
+      <point x="0.0" y="-47.5" />
+      <point x="64.5" y="115.0" />
+      <point x="304.17499999999995" y="115.0" />
+      <point x="-51.60000000000002" y="47.5" />
+    </edge>
+    <edge source="B" target="State">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="FSM" target="State">
+      <point x="33.39999999999998" y="-92.0" />
+      <point x="381.575" y="260.0" />
+      <point x="429.5" y="260.0" />
+      <point x="429.5" y="125.0" />
+      <point x="381.575" y="125.0" />
+      <point x="25.80000000000001" y="47.5" />
+    </edge>
+    <edge source="C" target="State">
+      <point x="0.0" y="-25.5" />
+      <point x="211.0" y="125.0" />
+      <point x="329.97499999999997" y="125.0" />
+      <point x="-25.80000000000001" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.5" y="287.5" />
+  <SelectedNodes>
+    <node>A</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

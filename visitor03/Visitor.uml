@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>VisitorSingle</OriginalElement>
+  <nodes>
+    <node x="21.5" y="541.0">VisitorSingle.C</node>
+    <node x="247.3075912183055" y="374.0">VisitorSingle.B</node>
+    <node x="113.47425788497215" y="207.0">VisitorSingle.A</node>
+    <node x="104.43259121830549" y="728.0">VisitorSingle</node>
+    <node x="69.00276553803343" y="0.0">VisitorSingle.Base</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="VisitorSingle.C" target="VisitorSingle.Base">
+      <point x="-55.14285714285714" y="-58.5" />
+      <point x="62.85714285714286" y="521.0" />
+      <point x="71.14285714285714" y="521.0" />
+      <point x="71.14285714285714" y="167.0" />
+      <point x="130.41185644712436" y="167.0" />
+      <point x="-35.090909090909065" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.Base" target="VisitorSingle.A">
+      <point x="35.09090909090912" y="58.5" />
+      <point x="200.59367462894255" y="177.0" />
+      <point x="274.30759121830545" y="177.0" />
+      <point x="64.33333333333331" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.B" target="VisitorSingle.Base">
+      <point x="38.60000000000005" y="-58.5" />
+      <point x="382.4075912183056" y="354.0" />
+      <point x="370.54694264069263" y="354.0" />
+      <point x="370.54694264069263" y="157.0" />
+      <point x="235.68458371985167" y="157.0" />
+      <point x="70.18181818181824" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.Base" target="VisitorSingle.B">
+      <point x="87.7272727272728" y="58.5" />
+      <point x="253.23003826530623" y="147.0" />
+      <point x="381.54694264069263" y="147.0" />
+      <point x="381.54694264069263" y="344.0" />
+      <point x="421.0075912183055" y="344.0" />
+      <point x="77.19999999999999" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.Base" target="VisitorSingle.C">
+      <point x="-17.545454545454504" y="58.5" />
+      <point x="147.95731099257893" y="177.0" />
+      <point x="82.14285714285714" y="177.0" />
+      <point x="82.14285714285714" y="521.0" />
+      <point x="90.42857142857144" y="521.0" />
+      <point x="-27.571428571428555" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.Base" target="VisitorSingle">
+      <point x="-87.72727272727275" y="58.5" />
+      <point x="77.77549281076068" y="137.0" />
+      <point x="0.0" y="137.0" />
+      <point x="0.0" y="708.0" />
+      <point x="115.93259121830549" y="708.0" />
+      <point x="-80.5" y="-25.5" />
+    </edge>
+    <edge source="VisitorSingle" target="VisitorSingle.C">
+      <point x="-34.5" y="-25.5" />
+      <point x="161.9325912183055" y="688.0" />
+      <point x="69.75" y="688.0" />
+      <point x="-48.25" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle" target="VisitorSingle.B">
+      <point x="80.5" y="-25.5" />
+      <point x="276.9325912183055" y="708.0" />
+      <point x="394.67194264069263" y="708.0" />
+      <point x="394.67194264069263" y="521.0" />
+      <point x="416.18259121830556" y="521.0" />
+      <point x="72.37500000000003" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.B" target="VisitorSingle.A">
+      <point x="-77.19999999999993" y="-58.5" />
+      <point x="266.6075912183056" y="354.0" />
+      <point x="258.22425788497213" y="354.0" />
+      <point x="48.25" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.C" target="VisitorSingle.B">
+      <point x="55.14285714285717" y="-58.5" />
+      <point x="173.14285714285717" y="511.0" />
+      <point x="271.4325912183055" y="511.0" />
+      <point x="-72.375" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle" target="VisitorSingle.A">
+      <point x="34.5" y="-25.5" />
+      <point x="230.9325912183055" y="708.0" />
+      <point x="236.0" y="708.0" />
+      <point x="236.0" y="344.0" />
+      <point x="226.0575912183055" y="344.0" />
+      <point x="16.083333333333343" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.C" target="VisitorSingle.A">
+      <point x="27.571428571428584" y="-58.5" />
+      <point x="145.57142857142858" y="521.0" />
+      <point x="137.42940437538653" y="521.0" />
+      <point x="137.42940437538653" y="354.0" />
+      <point x="161.72425788497213" y="354.0" />
+      <point x="-48.25" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.A" target="VisitorSingle">
+      <point x="-16.083333333333314" y="58.5" />
+      <point x="193.89092455163882" y="354.0" />
+      <point x="225.0" y="354.0" />
+      <point x="225.0" y="708.0" />
+      <point x="207.9325912183055" y="708.0" />
+      <point x="11.5" y="-25.5" />
+    </edge>
+    <edge source="VisitorSingle.A" target="VisitorSingle.C">
+      <point x="-80.41666666666666" y="58.5" />
+      <point x="129.5575912183055" y="354.0" />
+      <point x="112.42412840136055" y="354.0" />
+      <point x="112.42412840136055" y="521.0" />
+      <point x="118.0" y="521.0" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.B" target="VisitorSingle">
+      <point x="24.125" y="58.5" />
+      <point x="367.9325912183055" y="521.0" />
+      <point x="383.67194264069263" y="521.0" />
+      <point x="383.67194264069263" y="698.0" />
+      <point x="253.9325912183055" y="698.0" />
+      <point x="57.5" y="-25.5" />
+    </edge>
+    <edge source="VisitorSingle.A" target="VisitorSingle.B">
+      <point x="80.41666666666661" y="58.5" />
+      <point x="290.39092455163876" y="354.0" />
+      <point x="305.20759121830554" y="354.0" />
+      <point x="-38.59999999999994" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.B" target="VisitorSingle.C">
+      <point x="-24.125" y="58.5" />
+      <point x="319.6825912183055" y="521.0" />
+      <point x="200.71428571428572" y="521.0" />
+      <point x="82.71428571428572" y="-58.5" />
+    </edge>
+    <edge source="VisitorSingle.C" target="VisitorSingle">
+      <point x="48.25" y="58.5" />
+      <point x="166.25" y="678.0" />
+      <point x="184.9325912183055" y="678.0" />
+      <point x="-11.5" y="-25.5" />
+    </edge>
+    <edge source="VisitorSingle" target="VisitorSingle.Base">
+      <point x="-57.5" y="-25.5" />
+      <point x="138.9325912183055" y="698.0" />
+      <point x="11.0" y="698.0" />
+      <point x="11.0" y="147.0" />
+      <point x="95.32094735621524" y="147.0" />
+      <point x="-70.18181818181819" y="58.5" />
+    </edge>
+    <edge source="VisitorSingle.A" target="VisitorSingle.Base">
+      <point x="-64.33333333333331" y="-58.5" />
+      <point x="145.64092455163882" y="187.0" />
+      <point x="165.50276553803343" y="187.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.5" y="389.5" />
+  <SelectedNodes>
+    <node>VisitorSingle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

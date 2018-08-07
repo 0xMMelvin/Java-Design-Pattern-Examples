@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Command</OriginalElement>
+  <nodes>
+    <node x="352.0" y="144.0">That</node>
+    <node x="86.1" y="0.0">Prototype</node>
+    <node x="266.43333333333334" y="11.5">Command</node>
+    <node x="0.0" y="448.0">PrototypeDemo</node>
+    <node x="0.0" y="144.0">This</node>
+    <node x="0.0" y="285.0">PrototypesModule</node>
+    <node x="176.0" y="144.0">TheOther</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="This" target="Command">
+      <point x="39.0" y="-48.0" />
+      <point x="117.0" y="114.0" />
+      <point x="292.43333333333334" y="114.0" />
+      <point x="-52.0" y="25.5" />
+    </edge>
+    <edge source="TheOther" target="Prototype">
+      <point x="-39.0" y="-48.0" />
+      <point x="215.0" y="104.0" />
+      <point x="163.6" y="104.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="This" target="Prototype">
+      <point x="-39.0" y="-48.0" />
+      <point x="39.0" y="124.0" />
+      <point x="111.93333333333334" y="124.0" />
+      <point x="-51.66666666666666" y="37.0" />
+    </edge>
+    <edge source="TheOther" target="Command">
+      <point x="39.0" y="-48.0" />
+      <point x="293.0" y="124.0" />
+      <point x="344.43333333333334" y="124.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="That" target="Command">
+      <point x="39.0" y="-48.0" />
+      <point x="469.0" y="124.0" />
+      <point x="396.43333333333334" y="124.0" />
+      <point x="52.0" y="25.5" />
+    </edge>
+    <edge source="That" target="Prototype">
+      <point x="-39.0" y="-48.0" />
+      <point x="391.0" y="94.0" />
+      <point x="215.26666666666665" y="94.0" />
+      <point x="51.66666666666666" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="254.0" y="260.5" />
+  <SelectedNodes>
+    <node>Command</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
