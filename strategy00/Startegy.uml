@@ -3,55 +3,38 @@
   <ID>JAVA</ID>
   <OriginalElement>Impl1</OriginalElement>
   <nodes>
-    <node x="192.0" y="480.0">StrategyDemo</node>
-    <node x="0.0" y="101.0">TemplateMethod1</node>
-    <node x="212.0" y="112.0">TemplateMethod2</node>
-    <node x="212.0" y="301.0">Impl2</node>
-    <node x="0.0" y="290.0">Impl1</node>
-    <node x="234.5" y="0.0">Strategy</node>
+    <node x="203.0" y="101.0">TemplateMethod1</node>
+    <node x="1.0" y="111.0">TemplateMethod2</node>
+    <node x="0.0" y="301.0">Impl2</node>
+    <node x="203.0" y="290.0">Impl1</node>
+    <node x="125.5" y="0.0">Strategy</node>
   </nodes>
   <notes />
   <edges>
     <edge source="TemplateMethod1" target="Strategy">
       <point x="0.0" y="-69.5" />
-      <point x="96.0" y="76.0" />
-      <point x="257.83333333333337" y="76.0" />
-      <point x="-46.66666666666666" y="25.5" />
+      <point x="299.5" y="76.0" />
+      <point x="230.5" y="76.0" />
+      <point x="35.0" y="25.5" />
     </edge>
     <edge source="TemplateMethod2" target="Strategy">
       <point x="0.0" y="-58.5" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="Impl1" target="TemplateMethod1">
-      <point x="0.0" y="-70.0" />
-      <point x="0.0" y="69.5" />
+      <point x="91.5" y="76.0" />
+      <point x="160.5" y="76.0" />
+      <point x="-35.0" y="25.5" />
     </edge>
     <edge source="Impl2" target="TemplateMethod2">
       <point x="0.0" y="-59.0" />
       <point x="0.0" y="58.5" />
     </edge>
-    <edge source="StrategyDemo" target="Impl1">
-      <point x="-75.0" y="-36.5" />
-      <point x="229.5" y="455.0" />
-      <point x="96.0" y="455.0" />
-      <point x="0.0" y="70.0" />
-    </edge>
-    <edge source="StrategyDemo" target="Impl2">
-      <point x="0.0" y="-36.5" />
-      <point x="0.0" y="59.0" />
-    </edge>
-    <edge source="StrategyDemo" target="Strategy">
-      <point x="75.0" y="-36.5" />
-      <point x="379.5" y="455.0" />
-      <point x="407.5" y="455.0" />
-      <point x="407.5" y="76.0" />
-      <point x="351.16666666666663" y="76.0" />
-      <point x="46.66666666666663" y="25.5" />
+    <edge source="Impl1" target="TemplateMethod1">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="69.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="208.5" y="276.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="277.0" />
   <SelectedNodes>
-    <node>Impl1</node>
+    <node>TemplateMethod2</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

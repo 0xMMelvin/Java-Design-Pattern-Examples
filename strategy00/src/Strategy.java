@@ -1,6 +1,6 @@
 // 1. Define the interface of the algorithm
 interface Strategy {
-    public void solve();
+    void solve();
 }
 
 // 2. Bury implementation
@@ -68,7 +68,7 @@ class Impl2 extends TemplateMethod2 {
 
     protected boolean search() {
         System.out.print("search-" + state++ + "  ");
-        return state == 3 ? true : false;
+        return state == 3;
     }
 }
 

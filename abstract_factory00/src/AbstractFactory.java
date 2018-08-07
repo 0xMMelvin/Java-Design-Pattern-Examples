@@ -74,6 +74,7 @@ class Client {
         ArchitectureToolkit abstractFactory;
         abstractFactory = ArchitectureToolkit.getFactory(ArchitectureToolkit.EMBER);
         CPU cpu = abstractFactory.createCPU();
+        MMU mmu = abstractFactory.createMMU();
     } // doIt
 } // class Client
 
