@@ -54,7 +54,7 @@ class TheSubject {
 
     public void setState(int in) {
         state = in;
-        notify();
+        notifyObservers();
     }
 
     private void notifyObservers() {

@@ -74,14 +74,14 @@ class Impl2 extends TemplateMethod2 {
 
 // 4. Clients couple strictly to the interface
 class StrategyDemo {
-    public static void clientCode(Strategy strat) {
-        strat.solve();
+    public static void clientCode(Strategy strategy) {
+        strategy.solve();
     }
 
     public static void main(String[] args) {
         Strategy[] algorithms = {new Impl1(), new Impl2()};
-        for (int i = 0; i < algorithms.length; i++) {
-            clientCode(algorithms[i]);
+        for (Strategy algorithm : algorithms) {
+            clientCode(algorithm);
         }
     }
 }
